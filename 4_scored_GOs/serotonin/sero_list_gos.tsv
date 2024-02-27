@@ -1,0 +1,85 @@
+GO:0001586	Gi/o-coupled serotonin receptor activity
+GO:0001587	Gq/11-coupled serotonin receptor activity
+GO:0001820	serotonin secretion
+GO:0002351	serotonin production involved in inflammatory response
+GO:0002442	serotonin secretion involved in inflammatory response
+GO:0002552	serotonin secretion by mast cell
+GO:0002554	serotonin secretion by platelet
+GO:0002556	serotonin secretion by basophil
+GO:0002561	basophil degranulation
+GO:0002576	platelet degranulation
+GO:0004059	aralkylamine N-acetyltransferase activity
+GO:0004993	G protein-coupled serotonin receptor activity
+GO:0005335	serotonin:sodium:chloride symporter activity
+GO:0006576	biogenic amine metabolic process
+GO:0006587	serotonin biosynthetic process from tryptophan
+GO:0006837	serotonin transport
+GO:0007192	adenylate cyclase-activating serotonin receptor signaling pathway
+GO:0007198	adenylate cyclase-inhibiting serotonin receptor signaling pathway
+GO:0007208	phospholipase C-activating serotonin receptor signaling pathway
+GO:0007210	serotonin receptor signaling pathway
+GO:0014062	regulation of serotonin secretion
+GO:0014063	negative regulation of serotonin secretion
+GO:0014064	positive regulation of serotonin secretion
+GO:0014076	response to fluoxetine
+GO:0014860	neurotransmitter secretion involved in regulation of skeletal muscle contraction
+GO:0022850	serotonin-gated monoatomic cation channel activity
+GO:0031821	G protein-coupled serotonin receptor binding
+GO:0031822	type 1B serotonin receptor binding
+GO:0031823	type 1D serotonin receptor binding
+GO:0031824	type 1E serotonin receptor binding
+GO:0031825	type 1F serotonin receptor binding
+GO:0031826	type 2A serotonin receptor binding
+GO:0031827	type 2B serotonin receptor binding
+GO:0031828	type 2C serotonin receptor binding
+GO:0031829	type 4 serotonin receptor binding
+GO:0031830	type 5A serotonin receptor binding
+GO:0031831	type 5B serotonin receptor binding
+GO:0031832	type 6 serotonin receptor binding
+GO:0031833	type 7 serotonin receptor binding
+GO:0035895	modulation of mast cell degranulation in another organism
+GO:0036467	5-hydroxy-L-tryptophan decarboxylase activity
+GO:0036515	serotonergic neuron axon guidance
+GO:0036517	chemoattraction of serotonergic neuron axon
+GO:0036519	chemorepulsion of serotonergic neuron axon
+GO:0042401	biogenic amine biosynthetic process
+GO:0042402	cellular biogenic amine catabolic process
+GO:0042427	serotonin biosynthetic process
+GO:0042428	serotonin metabolic process
+GO:0042429	serotonin catabolic process
+GO:0042431	indole metabolic process
+GO:0042432	indole biosynthetic process
+GO:0042433	indole catabolic process
+GO:0042827	platelet dense granule
+GO:0043303	mast cell degranulation
+GO:0051378	serotonin binding
+GO:0051610	serotonin uptake
+GO:0051611	regulation of serotonin uptake
+GO:0051612	negative regulation of serotonin uptake
+GO:0051613	positive regulation of serotonin uptake
+GO:0051614	inhibition of serotonin uptake
+GO:0060096	serotonin secretion, neurotransmission
+GO:0060155	platelet dense granule organization
+GO:0071411	cellular response to fluoxetine
+GO:0071886	1-(4-iodo-2,5-dimethoxyphenyl)propan-2-amine binding
+GO:0098664	G protein-coupled serotonin receptor signaling pathway
+GO:0098665	serotonin receptor complex
+GO:0098666	G protein-coupled serotonin receptor complex
+GO:0099011	neuronal dense core vesicle exocytosis
+GO:0099153	synaptic transmission, serotonergic
+GO:0099154	serotonergic synapse
+GO:0099525	presynaptic dense core vesicle exocytosis
+GO:0099589	serotonin receptor activity
+GO:0120294	peptide serotonyltransferase activity
+GO:0120295	histone serotonyltransferase activity
+GO:0140227	serotonin-gated cation-selective signaling pathway
+GO:0150038	postsynaptic dense core vesicle exocytosis
+GO:0160039	serotonin-gated chloride channel activity
+GO:1904014	response to serotonin
+GO:1904015	cellular response to serotonin
+GO:1904123	positive regulation of fatty acid beta-oxidation by serotonin receptor signaling pathway
+GO:1904602	serotonin-activated cation-selective channel complex
+GO:1905627	regulation of serotonin biosynthetic process
+GO:1905628	negative regulation of serotonin biosynthetic process
+GO:1905629	positive regulation of serotonin biosynthetic process
+GO:1990504	dense core granule exocytosis

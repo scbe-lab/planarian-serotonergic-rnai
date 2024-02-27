@@ -1,0 +1,1 @@
+cmd = smed_promoters.bed /mnt/sda/alberto//genomes/Smed/Rink/schMedS3/schMedS3_h1.fa homer_outputs/ -find motifs.motif

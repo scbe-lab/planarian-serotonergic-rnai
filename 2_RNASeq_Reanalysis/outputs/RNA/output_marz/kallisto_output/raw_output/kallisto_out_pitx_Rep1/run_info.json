@@ -1,0 +1,13 @@
+{
+	"n_targets": 58739,
+	"n_bootstraps": 0,
+	"n_processed": 5600803,
+	"n_pseudoaligned": 4931786,
+	"n_unique": 4090140,
+	"p_pseudoaligned": 88.1,
+	"p_unique": 73.0,
+	"kallisto_version": "0.50.0",
+	"index_version": 12,
+	"start_time": "Mon Oct 16 11:47:29 2023",
+	"call": "kallisto quant -t 10 -i /mnt/sda/alberto/colabos/elena_sero/rnaseq_reanalysis/data/genome/Smed.fna.kallisto -o /mnt/sda/alberto/colabos/elena_sero/rnaseq_reanalysis/outputs/RNA/kallisto_output/raw_output//kallisto_out_pitx_Rep1 /mnt/sda/alberto/colabos/elena_sero/rnaseq_reanalysis/data/fq/pitx_Rep1/pitx_Rep1_R1.fq.gz /mnt/sda/alberto/colabos/elena_sero/rnaseq_reanalysis/data/fq/pitx_Rep1/pitx_Rep1_R2.fq.gz"
+}

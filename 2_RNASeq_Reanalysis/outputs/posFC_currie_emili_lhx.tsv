@@ -1,0 +1,115 @@
+gene	longest_isoform	gene_type	gene_JakkeGuo	gene_Jakke_ver1	gene_ddv6	jakkeguo_collapsed	ddv6_collapsed	jakke_ver1_collapsed	Preferred_name	Description	PFAMs	class
+h1SMcG0000072	h1SMcT0000072.1	hconf	SMEST000518001.1	SMESG000000518.1	dd_Smed_v6_93702_0_1	SMEST000518001.1	dd_Smed_v6_93702_0_1	SMESG000000518.1	-	-	-	-
+h1SMcG0001271	h1SMcT0001271.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0001849	h1SMcT0001849.1	other	SMEST074929001.1	MSTRG.22024	dd_Smed_v6_20535_0_1	SMEST074929001.1	dd_Smed_v6_20535_0_1	MSTRG.22024	ife-3	Eukaryotic translation initiation factor 4E family member 1c	IF4E	-
+h1SMcG0001992	h1SMcT0001992.1	other	-	-	-	-	dd_Smed_v6_11628_0_2,dd_Smed_v6_13644_0_5,dd_Smed_v6_24715_0_1	-	-	-	-	-
+h1SMcG0002646	h1SMcT0002646.1	hconf	-	-	-	-	-	-	GRID1	extracellularly glutamate-gated ion channel activity	ANF_receptor,Lig_chan,Lig_chan-Glu_bd,RVT_1,SBP_bac_3	-
+h1SMcG0002837	h1SMcT0002837.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0003801	h1SMcT0003801.1	other	-	-	dd_Smed_v6_5675_0_22	-	dd_Smed_v6_5675_0_22,dd_Smed_v6_5675_0_25	-	-	-	-	-
+h1SMcG0004144	h1SMcT0004144.1	other	-	-	-	-	-	-	-	retrotransposable element Tf2 155 kDa protein type 1-like	Asp_protease_2,BEN,RVT_1,Retrotrans_gag,SCAN,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0005100	h1SMcT0005100.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0005115	h1SMcT0005115.1	hconf	-	-	-	SMEST053360001.1	-	SMESG000053360.1	-	-	-	-
+h1SMcG0005285	h1SMcT0005285.1	hconf	SMEST011241001.1	SMESG000011241.1	-	SMEST011241001.1	-	SMESG000011241.1	-	-	-	-
+h1SMcG0006063	h1SMcT0006063.1	hconf	SmMSTRG.14550.1	MSTRG.14550	-	SmMSTRG.14550.1	-	MSTRG.14550	-	-	-	-
+h1SMcG0006807	h1SMcT0006807.1	hconf	SMEST054909001.1	SMESG000054909.1	-	SMEST054909001.1	-	SMESG000054909.1	SLC6A7	Belongs to the sodium neurotransmitter symporter (SNF) (TC 2.A.22) family	SNF	-
+h1SMcG0007186	h1SMcT0007186.1	other	-	-	-	-	-	-	-	K02A2.6-like	DUF1759,RVP_2,RVT_1,SCAN,SRCR,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0008698	h1SMcT0008698.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0008712	h1SMcT0008712.1	other	-	-	-	-	-	-	-	K02A2.6-like	DUF1759,RVP_2,RVT_1,SCAN,SRCR,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0010099	h1SMcT0010099.1	hconf	-	-	-	SmMSTRG.17604.2	-	-	-	Astacin (Peptidase family M12A)	Astacin,CUB	-
+h1SMcG0010394	h1SMcT0010394.1	hconf	SMEST003274001.1	SMESG000003274.1	-	SMEST003274001.1	-	SMESG000003274.1	-	-	-	-
+h1SMcG0010994	h1SMcT0010994.1	other	-	-	-	-	-	-	-	K02A2.6-like	DUF1759,RVP_2,RVT_1,SCAN,SRCR,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0011048	h1SMcT0011048.1	hconf	SMEST057237001.1	MSTRG.17235	-	SMEST057237001.1	-	MSTRG.17235	-	-	-	-
+h1SMcG0011063	h1SMcT0011063.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0011589	h1SMcT0011589.1	other	-	-	-	-	-	-	TRAF3	thioesterase binding	MATH,zf-C3HC4,zf-C3HC4_2,zf-TRAF	-
+h1SMcG0011709	h1SMcT0011709.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0012162	h1SMcT0012162.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0012399	h1SMcT0012399.1	hconf	SMEST078788001.1	SMESG000078788.1	dd_Smed_v6_35624_0_1	SMEST020781001.1,SMEST078788001.1	dd_Smed_v6_35624_0_1	SMESG000020781.1,SMESG000078788.1	-	Structural component of the gap junctions	Innexin	-
+h1SMcG0012996	h1SMcT0012996.1	other	-	-	dd_Smed_v6_30564_0_1	-	dd_Smed_v6_30564_0_1	-	-	-	-	-
+h1SMcG0013173	h1SMcT0013173.1	other	-	-	-	-	-	-	-	K02A2.6-like	BESS,Baculo_F,Dimer_Tnp_hAT,MADF_DNA_bdg,Macro,RVP,RVT_1,Retrotrans_gag,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0015480	h1SMcT0015480.1	hconf	SMEST041897001.1	SMESG000041897.1	-	SMEST041897001.1,SMEST041897002.1	-	SMESG000041897.1	MEMO1	regulation of microtubule-based process	Memo	-
+h1SMcG0016005	h1SMcT0016005.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0016301	h1SMcT0016301.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0016502	h1SMcT0016502.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0017005	h1SMcT0017005.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0017609	h1SMcT0017609.1	other	-	-	-	-	-	-	-	K02A2.6-like	DUF1759,RVP_2,RVT_1,SCAN,SRCR,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0017790	h1SMcT0017790.1	other	-	-	-	-	-	-	-	transposition, RNA-mediated	RVT_1,Retrotrans_gag,rve,zf-CCHC	-
+h1SMcG0019033	h1SMcT0019033.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0019505	h1SMcT0019505.1	hconf	SMEST070294001.1	MSTRG.20643	-	SMEST070294001.1,SMEST070294002.1	-	MSTRG.20643	PSMD4	26S proteasome non-ATPase regulatory subunit	UIM,VWA_2	-
+h1SMcG0020266	h1SMcT0020266.1	hconf	SMEST043645002.1	MSTRG.13607	dd_Smed_v6_12050_0_1	SMEST043645001.1,SMEST043645002.1,SmMSTRG.13607.3,SmMSTRG.13607.4	dd_Smed_v6_12050_0_1	MSTRG.13607	ACSS3	Acyl-CoA synthetase short-chain family member 3	ACAS_N,AMP-binding,AMP-binding_C,RVT_1	-
+h1SMcG0020524	h1SMcT0020524.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMcG0020635	h1SMcT0020635.1	hconf	SMEST019754001.1	SMESG000019754.1	-	SMEST019754001.1,SMEST019754002.1	-	SMESG000019754.1	-	-	-	-
+h1SMcG0020830	h1SMcT0020830.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0021293	h1SMcT0021293.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0021638	h1SMcT0021638.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0022321	h1SMcT0022321.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0022764	h1SMcT0022764.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000496	h1SMnT0000496.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000661	h1SMnT0000661.1	hconf	SmMSTRG.20769.3	-	-	SmMSTRG.20769.3	-	-	SKI	Smad binding	Ski_Sno,c-SKI_SMAD_bind	-
+h1SMnG0000894	h1SMnT0000894.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001087	h1SMnT0001087.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001735	h1SMnT0001735.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001802	h1SMnT0001802.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002535	h1SMnT0002535.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0003453	h1SMnT0003453.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004025	h1SMnT0004025.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004388	h1SMnT0004388.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004463	h1SMnT0004463.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004603	h1SMnT0004603.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0005702	h1SMnT0005702.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0005903	h1SMnT0005903.3	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006058	h1SMnT0006058.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006073	h1SMnT0006073.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006374	h1SMnT0006374.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006693	h1SMnT0006693.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006795	h1SMnT0006795.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0007085	h1SMnT0007085.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0007202	h1SMnT0007202.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0008116	h1SMnT0008116.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0008718	h1SMnT0008718.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0009277	h1SMnT0009277.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0009321	h1SMnT0009321.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0010123	h1SMnT0010123.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0010438	h1SMnT0010438.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011197	h1SMnT0011197.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011567	h1SMnT0011567.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0012489	h1SMnT0012489.1	other	-	-	-	SMEST051837005.1	-	-	-	-	-	-
+h1SMnG0013374	h1SMnT0013374.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0014418	h1SMnT0014418.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0014655	h1SMnT0014655.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0015700	h1SMnT0015700.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0016886	h1SMnT0016886.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018114	h1SMnT0018114.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018246	h1SMnT0018246.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018382	h1SMnT0018382.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018956	h1SMnT0018956.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018999	h1SMnT0018999.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0019286	h1SMnT0019286.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0020165	h1SMnT0020165.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0020866	h1SMnT0020866.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0021684	h1SMnT0021684.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0022710	h1SMnT0022710.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023208	h1SMnT0023208.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023881	h1SMnT0023881.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0024205	h1SMnT0024205.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0025032	h1SMnT0025032.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0025961	h1SMnT0025961.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028020	h1SMnT0028020.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028673	h1SMnT0028673.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028965	h1SMnT0028965.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0029152	h1SMnT0029152.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030221	h1SMnT0030221.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030786	h1SMnT0030786.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0031264	h1SMnT0031264.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0031900	h1SMnT0031900.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0031940	h1SMnT0031940.3	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032082	h1SMnT0032082.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032087	h1SMnT0032087.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032094	h1SMnT0032094.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032095	h1SMnT0032095.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032276	h1SMnT0032276.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032993	h1SMnT0032993.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033486	h1SMnT0033486.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033865	h1SMnT0033865.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033881	h1SMnT0033881.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0034003	h1SMnT0034003.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0034316	h1SMnT0034316.1	other	-	-	-	-	-	-	-	-	-	-

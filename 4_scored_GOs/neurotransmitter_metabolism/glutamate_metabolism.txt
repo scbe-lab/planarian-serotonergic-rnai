@@ -1,0 +1,43 @@
+GO:0019670	anaerobic glutamate catabolic process
+GO:0006538	glutamate catabolic process
+GO:0019544	arginine catabolic process to glutamate
+GO:0019555	glutamate catabolic process to ornithine
+GO:0019554	glutamate catabolic process to oxaloacetate
+GO:0019550	glutamate catabolic process to aspartate
+GO:0033509	glutamate catabolic process to propionate
+GO:0033508	glutamate catabolic process to butyrate
+GO:0010133	proline catabolic process to glutamate
+GO:0019671	glutamate catabolic process via mesaconate and citramalate
+GO:0019557	histidine catabolic process to glutamate and formate
+GO:0019556	histidine catabolic process to glutamate and formamide
+GO:0019551	glutamate catabolic process to 2-oxoglutarate
+GO:0019553	glutamate catabolic process via L-citramalate
+GO:0019552	glutamate catabolic process via 2-hydroxyglutarate
+GO:0006539	glutamate catabolic process via 2-oxoglutarate
+GO:0036241	glutamate catabolic process to 4-hydroxybutyrate
+GO:2001156	regulation of proline catabolic process to glutamate
+GO:0019549	glutamate catabolic process to succinate via succinate semialdehyde
+GO:0019461	glutamine catabolic process to fumarate, using glutamate synthase (NADPH)
+GO:2001157	negative regulation of proline catabolic process to glutamate
+GO:2001158	positive regulation of proline catabolic process to glutamate
+GO:0036242	glutamate catabolic process to succinate via 2-oxoglutarate-dependent GABA-transaminase activity
+GO:0019460	glutamine catabolic process to fumarate
+GO:0033345	asparagine catabolic process via L-aspartate
+GO:0033346	asparagine catabolic process via 2-oxosuccinamate
+GO:0019462	glutamine catabolic process to fumarate, using glutaminase
+GO:0009065	glutamine family amino acid catabolic process
+GO:0033054	D-glutamate metabolic process
+GO:0006536	glutamate metabolic process
+GO:2000211	regulation of glutamate metabolic process
+GO:2000213	positive regulation of glutamate metabolic process
+GO:2000212	negative regulation of glutamate metabolic process
+GO:0046900	tetrahydrofolylpolyglutamate metabolic process
+GO:0052645	F420-0 metabolic process
+GO:0009064	glutamine family amino acid metabolic process
+GO:0006760	folic acid-containing compound metabolic process
+GO:0052649	coenzyme gamma-F420-2 metabolic process
+GO:0000820	regulation of glutamine family amino acid metabolic process
+GO:0019676	ammonia assimilation cycle
+GO:2001249	negative regulation of ammonia assimilation cycle
+GO:2001248	regulation of ammonia assimilation cycle
+GO:2001250	positive regulation of ammonia assimilation cycle

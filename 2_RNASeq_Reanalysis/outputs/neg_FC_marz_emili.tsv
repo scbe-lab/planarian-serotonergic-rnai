@@ -1,0 +1,271 @@
+gene	longest_isoform	gene_type	gene_JakkeGuo	gene_Jakke_ver1	gene_ddv6	jakkeguo_collapsed	ddv6_collapsed	jakke_ver1_collapsed	Preferred_name	Description	PFAMs	class
+h1SMcG0000075	h1SMcT0000075.1	hconf	SMEST000522002.1	MSTRG.1073	dd_Smed_v6_8392_0_2	SMEST000522001.1,SMEST000522002.1,SmMSTRG.1073.1,SmMSTRG.1073.5	dd_Smed_v6_8392_0_1,dd_Smed_v6_8392_0_2	MSTRG.1073	TPH2	tryptophan hydroxylase 2	ACT,Biopterin_H	-
+h1SMcG0000598	h1SMcT0000598.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMcG0001093	h1SMcT0001093.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMcG0001130	h1SMcT0001130.1	other	SMEST009033004.1	-	-	SMEST009033004.1	-	-	-	-	-	-
+h1SMcG0001382	h1SMcT0001382.1	other	-	-	-	-	-	-	-	K02A2.6-like	Asp_protease_2,Baculo_F,Chromo,Glycoprotein_B,LMF1,RVP,RVT_1,RVT_3,Retrotrans_gag,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0001503	h1SMcT0001503.1	hconf	SMEST035049001.1	SMESG000032574.1	-	SMEST015578001.1,SMEST032574001.1,SMEST035049001.1,SMEST048755001.1,SMEST057633001.1,SMEST057634001.1,SmMSTRG.17337.2	-	SMESG000015578.1,SMESG000032574.1,MSTRG.14382,SMESG000048755.1,MSTRG.17337	-	-	-	-
+h1SMcG0001745	h1SMcT0001745.1	hconf	SMEST059564001.1	SMESG000059564.1	dd_Smed_v6_67773_0_1	SMEST059564001.1	dd_Smed_v6_67773_0_1,dd_Smed_v6_84504_0_1	SMESG000059564.1	-	-	-	-
+h1SMcG0002419	h1SMcT0002419.1	other	-	-	-	-	-	-	PRPF38B	RNA splicing	CRAL_TRIO,PRP38,PRP38_assoc,Peptidase_C12,RVT_2,Rib_hydrolayse	-
+h1SMcG0002550	h1SMcT0002550.1	hconf	SMEST055359001.1	MSTRG.9892	dd_Smed_v6_20712_0_1	SMEST029557001.1,SMEST055359001.1,SmMSTRG.16876.2	dd_Smed_v6_20712_0_1	MSTRG.9892,MSTRG.16876	DAXX	death domain-associated protein	Daxx,PMP22_Claudin	-
+h1SMcG0002555	h1SMcT0002555.1	hconf	-	-	-	SMEST012690001.1,SmMSTRG.4612.2	-	MSTRG.4613	-	-	-	-
+h1SMcG0002668	h1SMcT0002668.1	hconf	-	-	-	-	-	-	-	activation of MAPKKK activity	WD40,zf-RING_UBOX,zf-TRAF	-
+h1SMcG0002841	h1SMcT0002841.1	hconf	SmMSTRG.17927.1	MSTRG.17927	-	SMEST060365001.1,SmMSTRG.17927.1	-	MSTRG.17927	-	-	-	-
+h1SMcG0002881	h1SMcT0002881.1	hconf	-	-	-	SmMSTRG.20044.2	-	-	-	-	-	-
+h1SMcG0003090	h1SMcT0003090.1	hconf	SMEST039375001.1	SMESG000039375.1	dd_Smed_v6_89567_0_1	SMEST039375001.1	dd_Smed_v6_89567_0_1	SMESG000039375.1	-	-	-	-
+h1SMcG0003353	h1SMcT0003353.1	other	SmMSTRG.4954.1	MSTRG.4954	dd_Smed_v6_22953_0_2	SmMSTRG.4954.1	dd_Smed_v6_22953_0_1,dd_Smed_v6_22953_0_2	MSTRG.4954	-	-	-	-
+h1SMcG0003369	h1SMcT0003369.1	other	-	-	-	-	-	-	TRAF5	meprin and TRAF homology	zf-C3HC4,zf-TRAF	-
+h1SMcG0003649	h1SMcT0003649.1	other	-	-	-	-	-	-	-	retrotransposable element Tf2 155 kDa protein type 1-like	Asp_protease_2,BEN,RVT_1,Retrotrans_gag,SCAN,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0003817	h1SMcT0003817.1	hconf	SmMSTRG.5936.4	MSTRG.5936	dd_Smed_v6_13534_0_1	SMEST016647001.1,SmMSTRG.5936.2,SmMSTRG.5936.3,SmMSTRG.5936.4,SmMSTRG.5936.5,SmMSTRG.5936.7	dd_Smed_v6_13534_0_1	MSTRG.5936	-	phospholipid scramblase activity	Scramblase	-
+h1SMcG0003869	h1SMcT0003869.1	hconf	-	-	dd_Smed_v6_54650_0_1	-	dd_Smed_v6_54650_0_1	-	-	-	-	-
+h1SMcG0004056	h1SMcT0004056.1	other	-	-	-	-	dd_Smed_v6_1574_6_111	-	-	-	-	-
+h1SMcG0004434	h1SMcT0004434.1	hconf	SMEST034079001.1	SMESG000034079.1	dd_Smed_v6_76596_0_1	SMEST034079001.1	dd_Smed_v6_76596_0_1	SMESG000034079.1	-	-	-	-
+h1SMcG0004459	h1SMcT0004459.1	hconf	SMEST018285001.1	MSTRG.6453	dd_Smed_v6_31564_0_1	SMEST018285001.1	dd_Smed_v6_31564_0_1	MSTRG.6453	-	mannosyl-inositol phosphorylceramide biosynthetic process	Gly_transf_sug,p450	-
+h1SMcG0004603	h1SMcT0004603.1	other	-	-	-	-	-	-	-	K02A2.6-like	Asp_protease_2,RVT_1,SCAN,SRCR,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0004771	h1SMcT0004771.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0005101	h1SMcT0005101.1	other	SMEST053279001.1	MSTRG.16216	dd_Smed_v6_13268_0_1	SMEST053279001.1	dd_Smed_v6_13268_0_1	MSTRG.16216	-	-	-	-
+h1SMcG0005176	h1SMcT0005176.1	other	-	-	-	-	-	-	-	-	RVT_1	-
+h1SMcG0006005	h1SMcT0006005.1	hconf	SMEST046768001.1	MSTRG.14490	dd_Smed_v6_4428_0_1	SMEST046768001.1,SmMSTRG.14490.1	dd_Smed_v6_4428_0_1	MSTRG.14490	col6a6	collagen	Collagen,EGF,Ferritin-like,Kunitz_BPTI,Sushi,VWA,VWA_3,fn2	-
+h1SMcG0007129	h1SMcT0007129.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0007313	h1SMcT0007313.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0007354	h1SMcT0007354.1	other	-	-	-	-	-	-	BCL3	lymphoma 3	Ank,Ank_2,Ank_3,Ank_4,Ank_5	-
+h1SMcG0007523	h1SMcT0007523.2	hconf	SMEST004532001.1	MSTRG.2237	dd_Smed_v6_41_1_1	SMEST004532001.1	dd_Smed_v6_41_1_1	MSTRG.2237	MTO1	protein MTO1 homolog	CAP,DUF4796,GIDA,GIDA_assoc	-
+h1SMcG0007727	h1SMcT0007727.1	other	SmMSTRG.21099.1	MSTRG.21099	dd_Smed_v6_14562_0_3	SMEST008335001.1,SmMSTRG.21099.1	dd_Smed_v6_14562_0_3,dd_Smed_v6_14562_0_4	MSTRG.21099,MSTRG.3304	-	-	-	-
+h1SMcG0007952	h1SMcT0007952.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0008278	h1SMcT0008278.1	hconf	SMEST076933001.1	SMESG000076933.1	-	SMEST076933001.1	-	SMESG000076933.1	-	-	-	-
+h1SMcG0008314	h1SMcT0008314.1	other	-	-	dd_Smed_v6_41791_0_1	-	dd_Smed_v6_41791_0_1	-	XPR1	Xenotropic and polytropic retrovirus receptor 1	EXS,SPX	-
+h1SMcG0008704	h1SMcT0008704.1	other	-	-	-	-	-	-	GABBR1	7 transmembrane sweet-taste receptor of 3 GCPR	7tm_3,ANF_receptor,CitMHS,DDE_Tnp_1_7,DUF4485,SCAN,Sushi	-
+h1SMcG0009194	h1SMcT0009194.1	hconf	-	-	-	-	-	-	-	G-protein beta/gamma-subunit complex binding	G-alpha	-
+h1SMcG0009245	h1SMcT0009245.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0010070	h1SMcT0010070.1	hconf	SMEST064507001.1	SMESG000064507.1	-	SMEST064507001.1	dd_Smed_v6_81360_0_1	SMESG000064507.1	-	-	-	-
+h1SMcG0010096	h1SMcT0010096.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0010408	h1SMcT0010408.1	other	SmMSTRG.12601.1	-	-	SmMSTRG.12601.1	-	-	-	-	-	-
+h1SMcG0011081	h1SMcT0011081.1	other	SMEST068337001.1	SMESG000068337.1	-	SMEST068337001.1	-	SMESG000068337.1	-	-	-	-
+h1SMcG0011386	h1SMcT0011386.1	other	-	-	dd_Smed_v6_59587_0_1	SMEST012629001.1,SMEST015447001.1,SMEST047318002.1,SMEST062768001.1,SmMSTRG.5587.2	dd_Smed_v6_59587_0_1	SMESG000012629.1,SMESG000047318.1,MSTRG.18753	-	-	-	-
+h1SMcG0011519	h1SMcT0011519.1	other	SMEST063286001.1	SMESG000063286.1	-	SMEST003871001.1,SMEST018997001.1,SMEST029600001.1,SMEST063286001.1,SMEST081747001.1	dd_Smed_v6_10954_0_16	SMESG000003871.1,MSTRG.6077,MSTRG.9902,SMESG000063286.1,SMESG000081747.1	-	DNA-binding transcription factor activity, RNA polymerase II-specific	DUF4371,Dimer_Tnp_hAT	-
+h1SMcG0012343	h1SMcT0012343.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0012546	h1SMcT0012546.1	other	-	-	-	-	-	-	-	retrotransposable element Tf2 155 kDa protein type 1-like	Asp_protease_2,BEN,RVT_1,Retrotrans_gag,SCAN,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0012649	h1SMcT0012649.1	hconf	SMEST074227001.1	MSTRG.20584	-	SMEST074227001.1,SmMSTRG.20584.4	-	MSTRG.20584	-	-	-	-
+h1SMcG0012776	h1SMcT0012776.1	hconf	SmMSTRG.23506.1	MSTRG.23506	dd_Smed_v6_15253_0_1	SMEST080359001.1,SmMSTRG.23506.1,SmMSTRG.23506.3,SmMSTRG.23506.3	dd_Smed_v6_15253_0_1	MSTRG.23506	PITX2	Sequence-specific DNA binding. It is involved in the biological process described with regulation of transcription, DNA-templated	Homeobox,OAR	Homeodomain
+h1SMcG0012963	h1SMcT0012963.1	hconf	SmMSTRG.4034.2	MSTRG.4034	-	SMEST010719001.1,SmMSTRG.4034.2	-	MSTRG.4034	-	-	-	-
+h1SMcG0013258	h1SMcT0013258.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0013362	h1SMcT0013362.1	hconf	SmMSTRG.20361.1	MSTRG.20361	dd_Smed_v6_5225_0_1	SMEST068601001.1,SmMSTRG.20361.1	dd_Smed_v6_5225_0_1	MSTRG.20361	-	-	-	-
+h1SMcG0013931	h1SMcT0013931.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0014179	h1SMcT0014179.3	hconf	SMEST006452005.1	MSTRG.1872	dd_Smed_v6_31887_0_1	SMEST006452005.1,SMEST006452007.1,SmMSTRG.1872.10,SmMSTRG.1872.11,SmMSTRG.1872.3,SmMSTRG.1872.4,SmMSTRG.1872.5,SmMSTRG.1872.6,SmMSTRG.1872.7,SmMSTRG.1872.8,SmMSTRG.1872.9	dd_Smed_v6_31887_0_1	MSTRG.1872	-	Immunoglobulin domain	CBM_14,I-set,Ig_3,V-set,ig,zf-CCHC_3	-
+h1SMcG0014352	h1SMcT0014352.1	hconf	SMEST005754002.1	MSTRG.1684	dd_Smed_v6_19859_0_1	SMEST005754001.1,SMEST005754002.1	dd_Smed_v6_19859_0_1	MSTRG.1684	prdm1	PR domain zinc finger protein	SET,zf-C2H2	zf-C2H2
+h1SMcG0014412	h1SMcT0014412.1	other	-	-	-	-	-	-	-	Jerky protein homolog-like	CENP-B_N,DDE_1,HTH_Tnp_1,HTH_Tnp_Tc5	-
+h1SMcG0014586	h1SMcT0014586.1	hconf	SmMSTRG.2699.1	MSTRG.2699	dd_Smed_v6_19744_0_1	SMEST009088001.1,SmMSTRG.2699.1,SmMSTRG.2699.3,SmMSTRG.2699.3,SmMSTRG.2699.4,SmMSTRG.2699.4,SmMSTRG.2699.5,SmMSTRG.2699.5,SmMSTRG.2699.6	dd_Smed_v6_19744_0_1,dd_Smed_v6_19744_0_2	MSTRG.2699	SLC18A2	aminergic neurotransmitter loading into synaptic vesicle	7tm_6,I-set,Ion_trans,MFS_1,Sugar_tr,UNC-93	-
+h1SMcG0014612	h1SMcT0014612.1	hconf	SMEST009159001.1	MSTRG.2723	dd_Smed_v6_32664_0_1	SMEST009159001.1	dd_Smed_v6_32664_0_1	MSTRG.2723	-	-	7TM_GPCR_Srsx	-
+h1SMcG0014852	h1SMcT0014852.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMcG0015185	h1SMcT0015185.1	hconf	SMEST021043001.1	MSTRG.6715	-	SMEST021043001.1,SmMSTRG.6715.3	-	MSTRG.6715	-	-	-	-
+h1SMcG0015186	h1SMcT0015186.1	hconf	SMEST021044001.1	MSTRG.6717	dd_Smed_v6_12700_0_1	SMEST021044001.1,SmMSTRG.6717.2,SmMSTRG.6717.3,SmMSTRG.6717.4,SmMSTRG.6717.5,SmMSTRG.6717.6,SmMSTRG.6717.6	dd_Smed_v6_12700_0_1	MSTRG.6717	SerT	dopamine:sodium symporter activity	SNF	-
+h1SMcG0015334	h1SMcT0015334.1	hconf	SMEST052678001.1	SMESG000052678.1	dd_Smed_v6_62939_0_1	SMEST052678001.1	dd_Smed_v6_62939_0_1	SMESG000052678.1	-	-	-	-
+h1SMcG0015982	h1SMcT0015982.1	hconf	-	-	-	-	-	-	DNAH11	heavy chain 11	AAA_5,AAA_6,AAA_7,AAA_8,AAA_9,DHC_N1,DHC_N2,Dynein_heavy,MT	-
+h1SMcG0016192	h1SMcT0016192.1	other	-	-	-	-	-	-	-	K02A2.6-like	DUF1759,RVP_2,RVT_1,SCAN,SRCR,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0016410	h1SMcT0016410.1	other	SMEST014924001.1	SMESG000014924.1	-	SMEST014924001.1,SMEST051638001.1	dd_Smed_v6_18065_0_1,dd_Smed_v6_18065_0_2	SMESG000014924.1,SMESG000051638.1	-	-	-	-
+h1SMcG0016595	h1SMcT0016595.1	hconf	SMEST078225001.1	MSTRG.21794	dd_Smed_v6_26780_0_1	SMEST078225001.1	dd_Smed_v6_26780_0_1	MSTRG.21794	-	-	-	-
+h1SMcG0016604	h1SMcT0016604.1	hconf	SMEST078201001.1	MSTRG.21787	dd_Smed_v6_5621_0_1	SMEST078201001.1,SmMSTRG.21787.2	dd_Smed_v6_5621_0_1	MSTRG.21787	TMED2	emp24/gp25L/p24 family/GOLD	EMP24_GP25L	-
+h1SMcG0016986	h1SMcT0016986.1	other	-	-	dd_Smed_v6_25195_0_5	-	dd_Smed_v6_25195_0_5	-	-	-	-	-
+h1SMcG0017409	h1SMcT0017409.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0017446	h1SMcT0017446.1	other	-	-	-	SMEST080555002.1	-	SMESG000080555.1	-	K02A2.6-like	DUF1759,RVP_2,RVT_1,SCAN,SRCR,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0017716	h1SMcT0017716.1	other	SMEST048320001.1	MSTRG.14922	-	SMEST022579001.1,SMEST047889001.1,SMEST048320001.1,SMEST070088001.1	-	MSTRG.7981,SMESG000047889.1,MSTRG.14922,SMESG000070088.1	-	-	-	-
+h1SMcG0017718	h1SMcT0017718.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0017770	h1SMcT0017770.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0017874	h1SMcT0017874.1	hconf	SMEST063827001.1	MSTRG.18927	dd_Smed_v6_42955_0_2	SMEST063827001.1	dd_Smed_v6_42955_0_1,dd_Smed_v6_42955_0_2	MSTRG.18927	-	-	-	-
+h1SMcG0017966	h1SMcT0017966.1	other	SMEST059225001.1	SMESG000059225.1	-	SMEST059225001.1	-	SMESG000059225.1	-	-	-	-
+h1SMcG0018132	h1SMcT0018132.1	other	-	-	-	-	-	-	BIRC2	inhibition of cysteine-type endopeptidase activity involved in apoptotic process	BIR,CARD,TBP,zf-C3HC4_3	-
+h1SMcG0018505	h1SMcT0018505.1	hconf	SMEST061810001.1	MSTRG.18473	dd_Smed_v6_15790_0_1	SMEST061810001.1	dd_Smed_v6_15790_0_1	MSTRG.18473	-	Spectrin repeats	I-set,Spectrin	-
+h1SMcG0019203	h1SMcT0019203.1	other	-	-	-	-	-	-	-	K02A2.6-like	DUF1759,RVP_2,RVT_1,SCAN,SRCR,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0019292	h1SMcT0019292.3	hconf	SmMSTRG.19901.2	MSTRG.19901	-	SmMSTRG.19901.1,SmMSTRG.19901.2	-	MSTRG.19901	-	-	-	-
+h1SMcG0019477	h1SMcT0019477.1	other	SmMSTRG.20663.3	-	-	SmMSTRG.20663.3	-	-	-	-	-	-
+h1SMcG0020298	h1SMcT0020298.1	hconf	-	-	-	-	-	-	-	cobalamin catabolic process	Aldo_ket_red,CBM_14,CUB,Chitin_synth_2,F5_F8_type_C,Glyco_hydro_18,Kringle,LPMO_10,Lectin_C,Peptidase_S8,SSF,Trypsin	-
+h1SMcG0020786	h1SMcT0020786.1	hconf	SMEST017125001.1	MSTRG.5370	dd_Smed_v6_2512_0_1	SMEST017125001.1,SmMSTRG.5370.2	dd_Smed_v6_2512_0_1	MSTRG.5370	PI15	Belongs to the CRISP family	CAP,LCCL,RVT_1	-
+h1SMcG0021317	h1SMcT0021317.1	hconf	SMEST062609001.1	MSTRG.18674	dd_Smed_v6_159_0_1	SMEST062609001.1	dd_Smed_v6_159_0_1	MSTRG.18674	crispld1	SCP / Tpx-1 / Ag5 / PR-1 / Sc7 family of extracellular domains.	CAP,EnY2,LCCL	-
+h1SMcG0021584	h1SMcT0021584.1	other	SmMSTRG.5648.5	MSTRG.5648	-	SMEST015556001.1,SmMSTRG.5648.1,SmMSTRG.5648.3,SmMSTRG.5648.4,SmMSTRG.5648.5,SmMSTRG.5648.8	-	MSTRG.5648	SAV1	hippo signaling	PQ-loop,WW	-
+h1SMcG0021609	h1SMcT0021609.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0022203	h1SMcT0022203.1	hconf	SMEST022926001.1	MSTRG.7465	-	SMEST022926001.1	-	MSTRG.7465	-	-	-	-
+h1SMcG0022474	h1SMcT0022474.1	hconf	SMEST010015002.1	MSTRG.3764	dd_Smed_v6_1454_0_1	SMEST010015002.1	dd_Smed_v6_1454_0_1	MSTRG.3764	-	-	-	-
+h1SMcG0023015	h1SMcT0023015.1	other	-	-	-	-	-	-	-	protein serine/threonine kinase activity	Pkinase	-
+h1SMcG0023077	h1SMcT0023077.1	hconf	SMEST007198001.1	SMESG000007198.1	dd_Smed_v6_43965_0_1	SMEST007198001.1	dd_Smed_v6_43965_0_1	SMESG000007198.1	-	-	-	-
+h1SMnG0000019	h1SMnT0000019.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000169	h1SMnT0000169.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000303	h1SMnT0000303.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000432	h1SMnT0000432.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000445	h1SMnT0000445.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000668	h1SMnT0000668.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000701	h1SMnT0000701.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001030	h1SMnT0001030.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001174	h1SMnT0001174.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001244	h1SMnT0001244.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001311	h1SMnT0001311.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001555	h1SMnT0001555.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001632	h1SMnT0001632.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002122	h1SMnT0002122.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002449	h1SMnT0002449.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002464	h1SMnT0002464.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002617	h1SMnT0002617.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002657	h1SMnT0002657.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002944	h1SMnT0002944.1	other	-	-	dd_Smed_v6_33971_0_1	-	dd_Smed_v6_33971_0_1,dd_Smed_v6_33971_0_2	-	-	-	-	-
+h1SMnG0003185	h1SMnT0003185.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0003533	h1SMnT0003533.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0003561	h1SMnT0003561.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0003661	h1SMnT0003661.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0003738	h1SMnT0003738.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004449	h1SMnT0004449.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004489	h1SMnT0004489.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004567	h1SMnT0004567.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004597	h1SMnT0004597.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004717	h1SMnT0004717.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004879	h1SMnT0004879.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0005092	h1SMnT0005092.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0005320	h1SMnT0005320.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0005548	h1SMnT0005548.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0005789	h1SMnT0005789.1	other	SMEST009672001.1	MSTRG.3686	-	SMEST009672001.1	-	MSTRG.3686	-	-	-	-
+h1SMnG0005824	h1SMnT0005824.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006148	h1SMnT0006148.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006308	h1SMnT0006308.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006561	h1SMnT0006561.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006816	h1SMnT0006816.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006905	h1SMnT0006905.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0007094	h1SMnT0007094.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0007294	h1SMnT0007294.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0007388	h1SMnT0007388.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0007471	h1SMnT0007471.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0007785	h1SMnT0007785.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0007817	h1SMnT0007817.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0008022	h1SMnT0008022.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0008038	h1SMnT0008038.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0008065	h1SMnT0008065.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0008621	h1SMnT0008621.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0008855	h1SMnT0008855.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0009165	h1SMnT0009165.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0009571	h1SMnT0009571.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0009747	h1SMnT0009747.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0009752	h1SMnT0009752.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0009779	h1SMnT0009779.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0009915	h1SMnT0009915.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0010062	h1SMnT0010062.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0010157	h1SMnT0010157.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0010367	h1SMnT0010367.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011370	h1SMnT0011370.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011374	h1SMnT0011374.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011601	h1SMnT0011601.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011618	h1SMnT0011618.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011887	h1SMnT0011887.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011903	h1SMnT0011903.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0012208	h1SMnT0012208.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0012396	h1SMnT0012396.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0012500	h1SMnT0012500.1	hconf	SmMSTRG.20167.3	MSTRG.20167	dd_Smed_v6_11715_0_1	SMEST067829001.1,SmMSTRG.20167.2,SmMSTRG.20167.3	dd_Smed_v6_11715_0_1	MSTRG.20167	-	-	-	-
+h1SMnG0012683	h1SMnT0012683.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0012882	h1SMnT0012882.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0013028	h1SMnT0013028.9	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0013286	h1SMnT0013286.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0013312	h1SMnT0013312.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0013571	h1SMnT0013571.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0013817	h1SMnT0013817.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0014711	h1SMnT0014711.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0014808	h1SMnT0014808.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0015023	h1SMnT0015023.1	hconf	SmMSTRG.21410.3	-	-	SmMSTRG.21410.3	-	-	CRISPLD2	Venom allergen	CAP,LCCL	-
+h1SMnG0015129	h1SMnT0015129.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0015352	h1SMnT0015352.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0015666	h1SMnT0015666.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0015798	h1SMnT0015798.2	hconf	SmMSTRG.13069.3	-	-	SmMSTRG.13069.2,SmMSTRG.13069.3	-	-	NOL12	rRNA binding	Nop25	-
+h1SMnG0016092	h1SMnT0016092.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0016111	h1SMnT0016111.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0016230	h1SMnT0016230.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0016632	h1SMnT0016632.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0016664	h1SMnT0016664.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0016810	h1SMnT0016810.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0016937	h1SMnT0016937.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0017149	h1SMnT0017149.2	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0017151	h1SMnT0017151.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0017271	h1SMnT0017271.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0017488	h1SMnT0017488.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0017965	h1SMnT0017965.1	hconf	SMEST061267003.1	MSTRG.18172	dd_Smed_v6_28185_0_1	SMEST061267003.1	dd_Smed_v6_28185_0_1	MSTRG.18172	SPATA1	Spermatogenesis-associated C-terminus	SPATA1_C	-
+h1SMnG0018046	h1SMnT0018046.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018455	h1SMnT0018455.1	hconf	-	-	-	-	-	-	SMARCA4	SWI SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member	BRK,Bromodomain,DBINO,FXa_inhibition,HSA,Helicase_C,Ldl_recept_a,Ldl_recept_b,QLQ,SNF2_N,SnAC,Spermine_synth,TP6A_N	-
+h1SMnG0018602	h1SMnT0018602.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018603	h1SMnT0018603.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018719	h1SMnT0018719.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018966	h1SMnT0018966.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0019088	h1SMnT0019088.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0019468	h1SMnT0019468.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0019542	h1SMnT0019542.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0019964	h1SMnT0019964.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0019981	h1SMnT0019981.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0020005	h1SMnT0020005.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0020110	h1SMnT0020110.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0020200	h1SMnT0020200.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0020405	h1SMnT0020405.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0020856	h1SMnT0020856.1	hconf	-	-	-	-	-	-	-	transforming growth factor beta receptor signaling pathway	MH1,MH2	-
+h1SMnG0021489	h1SMnT0021489.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0021636	h1SMnT0021636.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0021699	h1SMnT0021699.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0021703	h1SMnT0021703.1	hconf	-	-	-	-	-	-	VDAC2	Voltage-gated anion channel activity. It is involved in the biological process described with regulation of anion transport	FERM_C,FERM_M,FERM_N,PDZ,Porin_3	-
+h1SMnG0022045	h1SMnT0022045.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0022243	h1SMnT0022243.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0022245	h1SMnT0022245.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0022287	h1SMnT0022287.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0022355	h1SMnT0022355.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0022439	h1SMnT0022439.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0022681	h1SMnT0022681.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0022844	h1SMnT0022844.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0022890	h1SMnT0022890.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023238	h1SMnT0023238.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023333	h1SMnT0023333.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023389	h1SMnT0023389.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023612	h1SMnT0023612.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023688	h1SMnT0023688.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023715	h1SMnT0023715.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0024058	h1SMnT0024058.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0024678	h1SMnT0024678.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0024836	h1SMnT0024836.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0025711	h1SMnT0025711.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0025910	h1SMnT0025910.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0025949	h1SMnT0025949.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0026520	h1SMnT0026520.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0026528	h1SMnT0026528.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0026585	h1SMnT0026585.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0026794	h1SMnT0026794.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0027275	h1SMnT0027275.1	other	-	-	dd_Smed_v6_5904_0_7	-	dd_Smed_v6_5904_0_7	-	-	-	-	-
+h1SMnG0027355	h1SMnT0027355.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0027635	h1SMnT0027635.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0027862	h1SMnT0027862.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028004	h1SMnT0028004.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028069	h1SMnT0028069.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028085	h1SMnT0028085.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028207	h1SMnT0028207.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028546	h1SMnT0028546.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028855	h1SMnT0028855.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0029061	h1SMnT0029061.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0029285	h1SMnT0029285.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0029977	h1SMnT0029977.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030047	h1SMnT0030047.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030049	h1SMnT0030049.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030105	h1SMnT0030105.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030106	h1SMnT0030106.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030217	h1SMnT0030217.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030243	h1SMnT0030243.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030342	h1SMnT0030342.1	hconf	SMEST026966001.1	MSTRG.255	-	SMEST026966001.1	-	MSTRG.255	-	-	-	-
+h1SMnG0030565	h1SMnT0030565.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030620	h1SMnT0030620.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030746	h1SMnT0030746.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030967	h1SMnT0030967.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0031146	h1SMnT0031146.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0031298	h1SMnT0031298.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0031635	h1SMnT0031635.1	hconf	SMEST035405001.1	SMESG000035405.1	-	SMEST035405001.1	-	SMESG000035405.1	-	-	-	-
+h1SMnG0031761	h1SMnT0031761.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0031864	h1SMnT0031864.1	hconf	SMEST034761002.1	MSTRG.10924	-	SMEST034761002.1,SmMSTRG.10924.3,SmMSTRG.10924.4,SmMSTRG.10924.6	-	MSTRG.10924	FAM173B	positive regulation of sensory perception of pain	Condensin2nSMC,MTS,MetW,Methyltransf_23	-
+h1SMnG0032115	h1SMnT0032115.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032741	h1SMnT0032741.4	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032845	h1SMnT0032845.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032901	h1SMnT0032901.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033119	h1SMnT0033119.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033120	h1SMnT0033120.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033368	h1SMnT0033368.1	other	SMEST013713001.1	MSTRG.4885	dd_Smed_v6_9787_0_1	SMEST013713001.1	dd_Smed_v6_9787_0_1	MSTRG.4885	-	-	-	-
+h1SMnG0033712	h1SMnT0033712.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033791	h1SMnT0033791.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033859	h1SMnT0033859.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0034035	h1SMnT0034035.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0034500	h1SMnT0034500.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0035325	h1SMnT0035325.1	other	-	-	-	-	-	-	-	-	-	-

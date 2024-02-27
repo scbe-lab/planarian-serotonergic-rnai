@@ -1,0 +1,21 @@
+GO:0009308	amine metabolic process
+GO:0006576	biogenic amine metabolic process
+GO:0033238	regulation of amine metabolic process
+GO:0033239	negative regulation of amine metabolic process
+GO:0033240	positive regulation of amine metabolic process
+GO:0006586	indolalkylamine metabolic process
+GO:0006665	sphingolipid metabolic process
+GO:0042443	phenylethylamine metabolic process
+GO:0001692	histamine metabolic process
+GO:0008215	spermine metabolic process
+GO:0046468	phosphatidyl-N-monomethylethanolamine metabolic process
+GO:0018887	4-carboxy-4'-sulfoazobenzene metabolic process
+GO:0009310	amine catabolic process
+GO:0042402	cellular biogenic amine catabolic process
+GO:0033241	regulation of amine catabolic process
+GO:0033242	negative regulation of amine catabolic process
+GO:0033243	positive regulation of amine catabolic process
+GO:0019607	phenylethylamine catabolic process
+GO:0030149	sphingolipid catabolic process
+GO:0046208	spermine catabolic process
+GO:0001695	histamine catabolic process

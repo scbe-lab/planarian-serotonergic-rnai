@@ -1,0 +1,11 @@
+GO:0042426	choline catabolic process
+GO:0006581	acetylcholine catabolic process
+GO:0034638	phosphatidylcholine catabolic process
+GO:0010899	regulation of phosphatidylcholine catabolic process
+GO:0010900	negative regulation of phosphatidylcholine catabolic process
+GO:0019695	choline metabolic process
+GO:0046470	phosphatidylcholine metabolic process
+GO:0008291	acetylcholine metabolic process
+GO:0060408	regulation of acetylcholine metabolic process
+GO:0060410	negative regulation of acetylcholine metabolic process
+GO:0060409	positive regulation of acetylcholine metabolic process

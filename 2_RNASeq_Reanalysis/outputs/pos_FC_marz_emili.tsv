@@ -1,0 +1,218 @@
+gene	longest_isoform	gene_type	gene_JakkeGuo	gene_Jakke_ver1	gene_ddv6	jakkeguo_collapsed	ddv6_collapsed	jakke_ver1_collapsed	Preferred_name	Description	PFAMs	class
+h1SMcG0000124	h1SMcT0000124.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMcG0000369	h1SMcT0000369.1	hconf	SMEST011056001.1	MSTRG.4151	dd_Smed_v6_18135_0_4	SMEST011056001.1	dd_Smed_v6_18135_0_1,dd_Smed_v6_18135_0_4	MSTRG.4151	-	-	-	-
+h1SMcG0000695	h1SMcT0000695.7	hconf	SmMSTRG.9517.1	MSTRG.9517	dd_Smed_v6_10_1_1	SMEST028258001.1,SMEST028260001.1,SmMSTRG.9517.1,SmMSTRG.9517.10,SmMSTRG.9517.12,SmMSTRG.9517.5	dd_Smed_v6_10_1_1	MSTRG.9517	SFTPD	Surfactant protein D	Collagen,Lectin_C,Surfac_D-trimer,VWD	-
+h1SMcG0002289	h1SMcT0002289.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0002426	h1SMcT0002426.1	other	-	-	-	-	-	-	-	K02A2.6-like	DUF1759,RVP_2,RVT_1,SCAN,SRCR,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0002922	h1SMcT0002922.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0002947	h1SMcT0002947.1	other	-	-	-	-	-	-	-	K02A2.6-like	DUF1759,RVP_2,RVT_1,SCAN,SRCR,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0003470	h1SMcT0003470.1	hconf	SMEST077611001.1	SMESG000077611.1	-	SMEST009566002.1,SMEST048323001.1,SMEST055578001.1,SMEST073729001.1,SMEST077611001.1	-	SMESG000009566.1,SMESG000048323.1,SMESG000055578.1,SMESG000073729.1,SMESG000077611.1	-	-	-	-
+h1SMcG0003630	h1SMcT0003630.1	hconf	SMEST042976001.1	SMESG000007636.1	dd_Smed_v6_54833_0_1	SMEST007636002.1,SMEST042976001.1	dd_Smed_v6_54833_0_1	SMESG000007636.1,SMESG000042976.1	-	-	-	-
+h1SMcG0003973	h1SMcT0003973.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0004481	h1SMcT0004481.1	hconf	SMEST033976001.1	MSTRG.11132	dd_Smed_v6_17854_0_1	SMEST033976001.1,SMEST033976002.1,SmMSTRG.11132.3,SmMSTRG.11132.3,SmMSTRG.11132.4,SmMSTRG.11132.4,SmMSTRG.11132.5,SmMSTRG.11132.5,SmMSTRG.11132.6	dd_Smed_v6_17854_0_1	MSTRG.11132	ARRB1	alpha-1A adrenergic receptor binding	ATG16,Arrestin_C,Arrestin_N,BTB,WD40	-
+h1SMcG0004710	h1SMcT0004710.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0004913	h1SMcT0004913.1	other	-	-	-	-	-	-	-	oxidation-reduction process	Exo_endo_phos_2,Herpes_teg_N	-
+h1SMcG0005100	h1SMcT0005100.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0005457	h1SMcT0005457.1	hconf	SMEST018025001.1	MSTRG.6370	dd_Smed_v6_4185_0_1	SMEST018025001.1	dd_Smed_v6_4185_0_1	MSTRG.6370	-	-	-	-
+h1SMcG0006237	h1SMcT0006237.1	hconf	SMEST018381001.1	SMESG000018381.1	-	SMEST018381001.1	-	SMESG000018381.1	ADPRM	ADP-ribose CDP-alcohol diphosphatase	Metallophos	-
+h1SMcG0006256	h1SMcT0006256.1	other	SMEST050353007.1	MSTRG.15477	-	SMEST006220001.1,SMEST006220002.1,SMEST019334004.1,SMEST022623007.1,SMEST043782004.1,SMEST050353007.1,SMEST057427053.1,SMEST057427075.1,SMEST062279011.1,SMEST065288002.1,SMEST076652008.1	dd_Smed_v6_79185_0_1	SMESG000006220.1,SMESG000019334.1,SMESG000043782.1,MSTRG.15477,SMESG000057427.1,SMESG000062279.1,SMESG000065288.1,SMESG000076652.1	-	nucleic acid binding	DNA_pol_B_2,Endonuclease_7,Rho_N	-
+h1SMcG0006565	h1SMcT0006565.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0006863	h1SMcT0006863.1	hconf	SmMSTRG.16650.1	MSTRG.16650	dd_Smed_v6_7967_0_1	SMEST055087001.1,SMEST055093002.1,SmMSTRG.16650.1	dd_Smed_v6_7967_0_1,dd_Smed_v6_9731_0_1	MSTRG.16650	-	hydrolase activity, acting on ester bonds	Abhydro_lipase,Abhydrolase_1,Dimer_Tnp_hAT,Hydrolase_4	-
+h1SMcG0007591	h1SMcT0007591.1	hconf	-	-	-	-	-	-	TNFAIP8L2	negative regulation of leukocyte cell-cell adhesion	DUF758	-
+h1SMcG0008888	h1SMcT0008888.1	other	-	-	-	-	-	-	LRSAM1	E3 ubiquitin-protein ligase	LRR_1,LRR_4,LRR_8,Mab-21,PAX,SAM_1,SAM_2,zf-C3HC4_3	-
+h1SMcG0009093	h1SMcT0009093.1	other	SMEST044525001.1	MSTRG.13859	-	SMEST044525001.1	-	MSTRG.13859	-	-	-	-
+h1SMcG0009142	h1SMcT0009142.1	hconf	SMEST049862001.1	MSTRG.15327	-	SMEST049862001.1	-	MSTRG.15327	ABCF3	defense response to virus	ABC_tran,ABC_tran_Xtn,BRICHOS	-
+h1SMcG0010099	h1SMcT0010099.1	hconf	-	-	-	SmMSTRG.17604.2	-	-	-	Astacin (Peptidase family M12A)	Astacin,CUB	-
+h1SMcG0010362	h1SMcT0010362.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0010396	h1SMcT0010396.1	hconf	SMEST003271002.1	MSTRG.901	dd_Smed_v6_58095_0_1	SMEST003271002.1	dd_Smed_v6_58095_0_1	MSTRG.901	-	-	-	-
+h1SMcG0011588	h1SMcT0011588.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0012457	h1SMcT0012457.1	other	-	-	-	-	-	-	TRAF5	meprin and TRAF homology	zf-C3HC4,zf-TRAF	-
+h1SMcG0012926	h1SMcT0012926.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0013399	h1SMcT0013399.2	other	-	-	-	-	dd_Smed_v6_23547_0_2,dd_Smed_v6_23547_0_3,dd_Smed_v6_23547_0_6,dd_Smed_v6_65219_0_1,dd_Smed_v6_70274_0_1	-	-	Ribonuclease H protein	Peptidase_C48,RVT_1	-
+h1SMcG0014642	h1SMcT0014642.1	hconf	SmMSTRG.2758.1	MSTRG.2758	dd_Smed_v6_78494_0_1	SmMSTRG.2758.1	dd_Smed_v6_53284_0_1,dd_Smed_v6_78494_0_1,dd_Smed_v6_97964_0_1	MSTRG.2758	-	sodium channel activity	ASC,Inhibitor_I29,MCM,MCM2_N,MCM_N,MCM_OB,Peptidase_C1	-
+h1SMcG0014689	h1SMcT0014689.2	hconf	SMEST009459001.1	MSTRG.2811	-	SMEST009459001.1,SMEST009459003.1	dd_Smed_v6_101944_0_1	MSTRG.2811	CAPN5	Belongs to the peptidase C2 family	C2,Calpain_III,Olfactory_mark,Peptidase_C2	-
+h1SMcG0014870	h1SMcT0014870.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMcG0014920	h1SMcT0014920.1	hconf	SMEST012043001.1	MSTRG.3551	-	SMEST012043001.1	-	MSTRG.3551	-	Methyltransferase domain	Methyltransf_22	-
+h1SMcG0014966	h1SMcT0014966.1	hconf	SMEST011905012.1	MSTRG.3516	dd_Smed_v6_24925_0_2	SMEST011901003.1,SMEST011905006.1,SMEST011905012.1,SmMSTRG.3515.2,SmMSTRG.3516.3,SmMSTRG.3516.4	dd_Smed_v6_24925_0_1,dd_Smed_v6_24925_0_2	MSTRG.3515,MSTRG.3516	-	-	-	-
+h1SMcG0015932	h1SMcT0015932.1	other	-	-	-	SMEST031681001.1,SMEST055010001.1	-	MSTRG.10377,MSTRG.16625	pogk	Pogo transposable element with KRAB domain	BrkDBD,DDE_1,HTH_Tnp_IS630,HTH_Tnp_Tc5,Lectin_C,Pentaxin,Transposase_1	-
+h1SMcG0016087	h1SMcT0016087.1	hconf	-	-	-	SMEST069521001.1	-	SMESG000069521.1	GRID1	extracellularly glutamate-gated ion channel activity	ANF_receptor,Lig_chan,Lig_chan-Glu_bd,RVT_1,SBP_bac_3	-
+h1SMcG0016289	h1SMcT0016289.1	hconf	SMEST067908001.1	SMESG000067908.1	-	SMEST067908001.1	-	SMESG000067908.1	-	Methyltransferase FkbM domain	Methyltransf_21	-
+h1SMcG0016642	h1SMcT0016642.1	hconf	SMEST078074001.1	MSTRG.21750	-	SMEST078074001.1	-	MSTRG.21750	-	-	-	-
+h1SMcG0017020	h1SMcT0017020.1	other	-	-	-	-	-	-	-	Integrase core domain	Asp_protease_2,PNMA,RVT_1,Retrotrans_gag,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0017138	h1SMcT0017138.1	hconf	SMEST061325001.1	MSTRG.18328	-	SMEST061325001.1,SMEST061337001.1	-	MSTRG.18328,MSTRG.18329	-	-	-	-
+h1SMcG0017144	h1SMcT0017144.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0017300	h1SMcT0017300.1	hconf	SMEST034252001.1	MSTRG.11193	dd_Smed_v6_41846_0_1	SMEST034252001.1	dd_Smed_v6_41846_0_1	MSTRG.11193	-	Membrane-associating domain	MARVEL	-
+h1SMcG0017552	h1SMcT0017552.1	hconf	SMEST057667001.1	SMESG000057667.1	-	SMEST057667001.1	-	SMESG000057667.1	TUBA1B	Tubulin is the major constituent of microtubules. It binds two moles of GTP, one at an exchangeable site on the beta chain and one at a non-exchangeable site on the alpha chain	Tubulin,Tubulin_C	-
+h1SMcG0017582	h1SMcT0017582.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0017712	h1SMcT0017712.1	other	SMEST039336001.1	SMESG000039336.1	-	SMEST039336001.1	-	SMESG000039336.1	-	-	-	-
+h1SMcG0017820	h1SMcT0017820.1	hconf	SMEST063611001.1	SMESG000063611.1	-	SMEST063611001.1	-	SMESG000063611.1	ATP1A1	Cation transporter/ATPase, N-terminus	Calsequestrin,Cation_ATPase,Cation_ATPase_C,Cation_ATPase_N,E1-E2_ATPase,Hydrolase,Hydrolase_3,PWWP,RNA_pol_Rpb8	-
+h1SMcG0018158	h1SMcT0018158.1	hconf	SMEST038735001.1	MSTRG.12123	dd_Smed_v6_30795_0_1	SMEST038735001.1,SmMSTRG.12123.2	dd_Smed_v6_30795_0_1	MSTRG.12123	-	Methyltransferase small domain	Methyltransf_23,Methyltransf_25,Methyltransf_31	-
+h1SMcG0019294	h1SMcT0019294.1	hconf	SMEST067292001.1	MSTRG.19903	dd_Smed_v6_38260_0_1	SMEST067292001.1	dd_Smed_v6_38260_0_1	MSTRG.19903	mth	7 transmembrane receptor (Secretin family)	7tm_1,7tm_2,7tm_6,Frizzled,Methuselah_N,Somatomedin_B	-
+h1SMcG0019558	h1SMcT0019558.1	hconf	-	-	dd_Smed_v6_68042_0_1	-	dd_Smed_v6_68042_0_1	-	-	-	-	-
+h1SMcG0019622	h1SMcT0019622.1	hconf	SMEST014787001.1	MSTRG.4473	-	SMEST014787001.1	-	MSTRG.4473	PRPF19	Prp19/Pso4-like	7tm_1,Col_cuticle_N,Collagen,HELP,LRR_5,Prp19,U-box,WD40	-
+h1SMcG0019774	h1SMcT0019774.1	hconf	SMEST014266001.1	SMESG000014266.1	-	SMEST014266001.1,SMEST052436002.1	-	SMESG000014266.1,SMESG000052436.1	ZNF474	zinc-finger of a C2HC-type	DZR,zf-C2HC_2	-
+h1SMcG0019838	h1SMcT0019838.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0020089	h1SMcT0020089.1	hconf	SmMSTRG.10978.1	MSTRG.10978	dd_Smed_v6_71905_0_1	SMEST034966002.1,SmMSTRG.10978.1,SmMSTRG.10978.1,SmMSTRG.10978.2,SmMSTRG.10978.3,SmMSTRG.10978.5	dd_Smed_v6_71905_0_1	MSTRG.10978	gria4	glutamate receptor	ANF_receptor,Lig_chan,Lig_chan-Glu_bd,SBP_bac_3	-
+h1SMcG0020427	h1SMcT0020427.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMcG0021431	h1SMcT0021431.1	hconf	SMEST020478001.1	SMESG000020478.1	-	SMEST020478001.1,SMEST020478002.1	-	SMESG000020478.1	-	-	-	-
+h1SMcG0021608	h1SMcT0021608.1	other	-	-	-	-	dd_Smed_v6_18850_0_1	-	-	K02A2.6-like	DUF1759,RVP_2,RVT_1,SCAN,SRCR,gag-asp_proteas,rve,zf-CCHC,zf-H2C2	-
+h1SMcG0022191	h1SMcT0022191.1	hconf	SMEST022908001.1	MSTRG.7453	dd_Smed_v6_30275_0_1	SMEST022908001.1,SmMSTRG.7453.2	dd_Smed_v6_30275_0_1	MSTRG.7453	-	-	-	-
+h1SMcG0022356	h1SMcT0022356.1	hconf	-	-	-	-	-	-	eif5a2	eukaryotic translation initiation factor	EFP_N,eIF-5a	-
+h1SMcG0022569	h1SMcT0022569.1	hconf	SMEST016305001.1	MSTRG.5839	dd_Smed_v6_199_0_1	SMEST016305001.1,SmMSTRG.5839.1	dd_Smed_v6_199_0_1	MSTRG.5839	-	-	-	-
+h1SMcG0022957	h1SMcT0022957.1	hconf	-	-	dd_Smed_v6_24265_0_1	SmMSTRG.17924.2	dd_Smed_v6_24265_0_1	-	-	-	-	-
+h1SMcG0022969	h1SMcT0022969.1	hconf	-	-	-	SMEST013112001.1	-	MSTRG.4702	GPRNNA1	obsolete signal transducer activity	7TM_GPCR_Srw,7tm_1	-
+h1SMcG0023089	h1SMcT0023089.1	other	-	-	-	SMEST063486016.1	-	SMESG000063486.1	-	-	-	-
+h1SMcG0023106	h1SMcT0023106.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000046	h1SMnT0000046.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000086	h1SMnT0000086.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000713	h1SMnT0000713.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000819	h1SMnT0000819.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0000973	h1SMnT0000973.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001324	h1SMnT0001324.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001396	h1SMnT0001396.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0001399	h1SMnT0001399.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002070	h1SMnT0002070.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002082	h1SMnT0002082.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002109	h1SMnT0002109.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002352	h1SMnT0002352.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002571	h1SMnT0002571.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002611	h1SMnT0002611.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0002785	h1SMnT0002785.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0003193	h1SMnT0003193.3	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0003625	h1SMnT0003625.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0003639	h1SMnT0003639.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004388	h1SMnT0004388.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0004945	h1SMnT0004945.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0005178	h1SMnT0005178.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0005186	h1SMnT0005186.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0005649	h1SMnT0005649.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0005727	h1SMnT0005727.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0005887	h1SMnT0005887.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006420	h1SMnT0006420.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0006848	h1SMnT0006848.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0007008	h1SMnT0007008.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0007116	h1SMnT0007116.1	hconf	-	-	-	-	-	-	YTHDF1	N6-methyladenosine-containing RNA binding	YTH	-
+h1SMnG0007158	h1SMnT0007158.2	hconf	-	-	dd_Smed_v6_45827_0_1	SmMSTRG.20577.2	dd_Smed_v6_45827_0_1	-	-	-	-	-
+h1SMnG0007997	h1SMnT0007997.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0008438	h1SMnT0008438.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0008551	h1SMnT0008551.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0008614	h1SMnT0008614.1	hconf	-	-	-	-	-	-	-	Domain present in PSD-95, Dlg, and ZO-1/2.	L27_2,PDZ	-
+h1SMnG0008693	h1SMnT0008693.3	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0009259	h1SMnT0009259.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0009356	h1SMnT0009356.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0009658	h1SMnT0009658.1	other	-	-	-	-	-	-	ZMYM6	MYM-type Zinc finger with FCS sequence motif	zf-FCS	-
+h1SMnG0009853	h1SMnT0009853.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0010191	h1SMnT0010191.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0010232	h1SMnT0010232.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0010414	h1SMnT0010414.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0010475	h1SMnT0010475.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0010650	h1SMnT0010650.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011062	h1SMnT0011062.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011166	h1SMnT0011166.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011505	h1SMnT0011505.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0011651	h1SMnT0011651.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0012414	h1SMnT0012414.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0012489	h1SMnT0012489.1	other	-	-	-	SMEST051837005.1	-	-	-	-	-	-
+h1SMnG0012570	h1SMnT0012570.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0012801	h1SMnT0012801.4	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0013429	h1SMnT0013429.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0013472	h1SMnT0013472.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0013591	h1SMnT0013591.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0013976	h1SMnT0013976.1	hconf	-	-	-	-	-	-	CTNNB1	Catenin (cadherin-associated protein), beta 1	Arm	-
+h1SMnG0014060	h1SMnT0014060.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0014250	h1SMnT0014250.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0014897	h1SMnT0014897.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0015065	h1SMnT0015065.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0015312	h1SMnT0015312.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0015328	h1SMnT0015328.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0015459	h1SMnT0015459.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0015920	h1SMnT0015920.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0016017	h1SMnT0016017.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0016231	h1SMnT0016231.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0016880	h1SMnT0016880.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0016994	h1SMnT0016994.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0017063	h1SMnT0017063.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0017568	h1SMnT0017568.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0017693	h1SMnT0017693.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018108	h1SMnT0018108.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018188	h1SMnT0018188.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018397	h1SMnT0018397.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018563	h1SMnT0018563.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018690	h1SMnT0018690.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018788	h1SMnT0018788.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0018981	h1SMnT0018981.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0019229	h1SMnT0019229.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0019382	h1SMnT0019382.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0019888	h1SMnT0019888.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0020055	h1SMnT0020055.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0021159	h1SMnT0021159.1	hconf	SMEST007316001.1	MSTRG.3057	-	SMEST007316001.1	-	MSTRG.3057	-	-	-	-
+h1SMnG0021308	h1SMnT0021308.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0021314	h1SMnT0021314.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0021580	h1SMnT0021580.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0021600	h1SMnT0021600.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0022107	h1SMnT0022107.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0022336	h1SMnT0022336.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023057	h1SMnT0023057.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023212	h1SMnT0023212.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023258	h1SMnT0023258.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023259	h1SMnT0023259.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023329	h1SMnT0023329.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023631	h1SMnT0023631.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023947	h1SMnT0023947.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0023969	h1SMnT0023969.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0024155	h1SMnT0024155.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0024203	h1SMnT0024203.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0024376	h1SMnT0024376.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0024546	h1SMnT0024546.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0024928	h1SMnT0024928.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0025357	h1SMnT0025357.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0025716	h1SMnT0025716.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0026166	h1SMnT0026166.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0026223	h1SMnT0026223.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0026324	h1SMnT0026324.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0026447	h1SMnT0026447.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0026799	h1SMnT0026799.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0027067	h1SMnT0027067.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0027292	h1SMnT0027292.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0027433	h1SMnT0027433.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0027691	h1SMnT0027691.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028021	h1SMnT0028021.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028136	h1SMnT0028136.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028321	h1SMnT0028321.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028354	h1SMnT0028354.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028479	h1SMnT0028479.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028561	h1SMnT0028561.1	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028608	h1SMnT0028608.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028693	h1SMnT0028693.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028898	h1SMnT0028898.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0028975	h1SMnT0028975.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0029450	h1SMnT0029450.2	hconf	-	-	-	-	-	-	SLC30A9	cellular zinc ion homeostasis	COMPASS-Shg1,Cation_efflux,LRR_9,Retrotran_gag_2	-
+h1SMnG0029633	h1SMnT0029633.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0029777	h1SMnT0029777.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0029988	h1SMnT0029988.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030044	h1SMnT0030044.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030204	h1SMnT0030204.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030221	h1SMnT0030221.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030791	h1SMnT0030791.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0030982	h1SMnT0030982.3	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0031086	h1SMnT0031086.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0031269	h1SMnT0031269.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0031397	h1SMnT0031397.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032244	h1SMnT0032244.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032316	h1SMnT0032316.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032604	h1SMnT0032604.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0032869	h1SMnT0032869.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033166	h1SMnT0033166.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033472	h1SMnT0033472.2	hconf	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033491	h1SMnT0033491.2	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033816	h1SMnT0033816.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033887	h1SMnT0033887.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033902	h1SMnT0033902.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0033931	h1SMnT0033931.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0034031	h1SMnT0034031.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0034589	h1SMnT0034589.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0034648	h1SMnT0034648.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0034803	h1SMnT0034803.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0035007	h1SMnT0035007.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0035254	h1SMnT0035254.1	other	-	-	-	-	-	-	-	-	-	-
+h1SMnG0035283	h1SMnT0035283.1	other	-	-	-	-	-	-	-	-	-	-
