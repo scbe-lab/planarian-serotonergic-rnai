@@ -1,0 +1,717 @@
+##Pitx and lhx1/5-1 RNAi Experimet Analysis
+#This includes SPLiT-seq libraries L43_1, L43_2, L43_3, L43_4 and L43_5 (shallow sequencing and deep sequencing)
+
+
+#Location of FASTQ files of shallow sequencing back-up in Nostromo
+/mnt/sda/NGS_READS/Sample43_Smed_Sero_RNAi_July2022/shallow
+
+
+#Location of FASTQ files of deep sequencing back-up in Nostromo
+cd /mnt/sda/NGS_READS/Sample43_Smed_Sero_RNAi_July2022/deep
+
+
+#Location of all the files for the analysis in Nostromo
+/mnt/sda/elena/schmidtea/sizes230505
+
+
+#Genome version
+/mnt/sda/david/genome_tests/ref_rink_genome
+
+
+#Set-up directories
+mkdir Original_files #this will contain read1 and read2 of both shallow and deep sequencing of all the library as well as the concatenated files for downstream analysis
+mkdir QC_cleanup #this will contain reads after trimming and dephasing as well as fastQC outputs
+mkdir Alignment #this will contain the reads mapped to the genome of reference
+mkdir Matrix #this will contain the DigitalExpression matrix and the .h5ad files 
+
+
+#Library 1 shallow 
+L43_1_R1.fq.gz
+L43_1_R2.fq.gz
+
+
+#Library 2 shallow 
+L43_2_R1.fq.gz
+L43_2_R2.fq.gz
+
+
+#Library 3 shallow 
+L43_3_R1.fq.gz  
+L43_3_R2.fq.gz  
+
+
+#Library 4 shallow 
+L43_4_R1.fq.gz
+L43_4_R2.fq.gz
+
+
+#Library 5 shallow 
+L43_5_R1.fq.gz
+L43_5_R2.fq.gz
+
+
+#Library 1 deep
+L43_1_A_R1.fq.gz  
+L43_1_A_R2.fq.gz  
+L43_1_B_R1.fq.gz 
+L43_1_B_R2.fq.gz 
+L43_1_C_R1.fq.gz  
+L43_1_C_R2.fq.gz
+
+
+#Library 2 deep
+L43_2_A_R1.fq.gz
+L43_2_A_R2.fq.gz
+L43_2_B_R1.fq.gz
+L43_2_B_R2.fq.gz
+L43_2_C_R1.fq.gz
+L43_2_C_R2.fq.gz
+
+
+#Library 3 deep
+L43_3_A_R1.fq.gz  
+L43_3_A_R2.fq.gz
+L43_3_B_R1.fq.gz
+L43_3_B_R2.fq.gz 
+L43_3_C_R1.fq.gz
+L43_3_C_R2.fq.gz
+
+
+#Library 4 deep
+L43_4_A_R1.fq.gz
+L43_4_A_R2.fq.gz
+L43_4_B_R1.fq.gz
+L43_4_B_R2.fq.gz
+L43_4_C_R1.fq.gz  
+L43_4_C_R2.fq.gz
+
+
+#Library 5 deep
+L43_5_A_R1.fq.gz
+L43_5_A_R2.fq.gz
+L43_5_B_R1.fq.gz
+L43_5_B_R2.fq.gz
+L43_5_C_R1.fq.gz
+L43_5_C_R2.fq.gz
+
+
+#Concatenate shallow and deep sequencing
+cd Original_files
+cat L43_1_A_R1.fq.gz L43_1_B_R1.fq.gz > L43_1_R1_int.fq.gz
+cat L43_1_A_R2.fq.gz L43_1_B_R2.fq.gz > L43_1_R2_int.fq.gz
+cat L43_2_A_R1.fq.gz L43_2_B_R1.fq.gz > L43_2_R1_int.fq.gz
+cat L43_2_A_R2.fq.gz L43_2_B_R2.fq.gz > L43_2_R2_int.fq.gz
+cat L43_3_A_R1.fq.gz L43_3_B_R1.fq.gz > L43_3_R1_int.fq.gz
+cat L43_3_A_R2.fq.gz L43_3_B_R2.fq.gz > L43_3_R2_int.fq.gz
+cat L43_4_A_R1.fq.gz L43_4_B_R1.fq.gz > L43_4_R1_int.fq.gz
+cat L43_4_A_R2.fq.gz L43_4_B_R2.fq.gz > L43_4_R2_int.fq.gz
+cat L43_5_A_R1.fq.gz L43_5_B_R1.fq.gz > L43_5_R1_int.fq.gz
+cat L43_5_A_R2.fq.gz L43_5_B_R2.fq.gz > L43_5_R2_int.fq.gz
+cat L43_1_C_R1.fq.gz L43_1_R1_int.fq.gz > L43_1_R1_deep.fq.gz
+cat L43_1_C_R2.fq.gz L43_1_R2_int.fq.gz  > L43_1_R2_deep.fq.gz
+cat L43_2_C_R1.fq.gz L43_2_R1_int.fq.gz > L43_2_R1_deep.fq.gz
+cat L43_2_C_R2.fq.gz L43_2_R2_int.fq.gz  > L43_2_R2_deep.fq.gz
+cat L43_3_C_R1.fq.gz L43_3_R1_int.fq.gz > L43_3_R1_deep.fq.gz
+cat L43_3_C_R2.fq.gz L43_3_R2_int.fq.gz  > L43_3_R2_deep.fq.gz
+cat L43_4_C_R1.fq.gz L43_4_R1_int.fq.gz > L43_4_R1_deep.fq.gz
+cat L43_4_C_R2.fq.gz L43_4_R2_int.fq.gz  > L43_4_R2_deep.fq.gz
+cat L43_5_C_R1.fq.gz L43_5_R1_int.fq.gz > L43_5_R1_deep.fq.gz
+cat L43_5_C_R2.fq.gz L43_5_R2_int.fq.gz  > L43_5_R2_deep.fq.gz
+cat L43_1_R1_deep.fq.gz L43_1_R1.fq.gz > s1_R1.fq.gz
+cat L43_1_R2_deep.fq.gz L43_1_R1.fq.gz > s1_R2.fq.gz
+cat L43_2_R1_deep.fq.gz L43_2_R1.fq.gz > s2_R1.fq.gz
+cat L43_2_R2_deep.fq.gz L43_2_R1.fq.gz > s2_R2.fq.gz
+cat L43_3_R1_deep.fq.gz L43_3_R1.fq.gz > s3_R1.fq.gz
+cat L43_3_R2_deep.fq.gz L43_3_R1.fq.gz > s3_R2.fq.gz
+cat L43_4_R1_deep.fq.gz L43_4_R1.fq.gz > s4_R1.fq.gz
+cat L43_4_R2_deep.fq.gz L43_4_R1.fq.gz > s4_R2.fq.gz
+cat L43_5_R1_deep.fq.gz L43_5_R1.fq.gz > s5_R1.fq.gz
+cat L43_5_R2_deep.fq.gz L43_5_R1.fq.gz > s5_R2.fq.gz
+
+
+#Final FASTQ files
+s1_R1.fq.gz #this is the read1 of the 1st library of the serotonergic experiment (with 20K cells post-FACS and BC4_76)
+s1_R2.fq.gz #this is the read2 of the 1st library of the serotonergic experiment (with 20K cells post-FACS and BC4_76)
+s2_R1.fq.gz #this is the read1 of the 2nd library of the serotonergic experiment (with 20K cells post-FACS and BC4_77)
+s2_R2.fq.gz #this is the read2 of the 2nd library of the serotonergic experiment (with 20K cells post-FACS and BC4_77) 
+s3_R1.fq.gz #this is the read1 of the 3rd library of the serotonergic experiment (with 20K cells post-FACS and BC4_76)
+s3_R2.fq.gz #this is the read2 of the 3rd library of the serotonergic experiment (with 20K cells post-FACS and BC4_76)
+s4_R1.fq.gz #this is the read1 of the 4th library of the serotonergic experiment (with 20K cells post-FACS and BC4_77)
+s4_R2.fq.gz #this is the read2 of the 4th library of the serotonergic experiment (with 20K cells post-FACS and BC4_77) 
+s5_R1.fq.gz #this is the read1 of the 5th library of the serotonergic experiment (with 20K cells post-FACS and BC4_77)
+s5_R2.fq.gz #this is the read2 of the 5th library of the serotonergic experiment (with 20K cells post-FACS and BC4_77) 
+rm *_int.fq.gz #for a matter of space we will remove those intermediate file
+rm L* #for a matter of space we will remove those file (they are saved in the NGS_READS folder for back-up)
+
+
+#Check data quality
+cd QC_cleanup
+mkdir fastqc
+cd fastqc
+screen -S fastqc
+fastqc /mnt/sda/elena/schmidtea/sizes230505/Original_files/s* -o . &
+
+
+#Trimming and dephasing
+cd QC_cleanup
+screen -S r1
+for file in /mnt/sda/elena/schmidtea/sero230509/Original_files/*1.fq.gz; do cutadapt -j 4 -m 60 -b AGATCGGAAGAG -o ./"$(basename "$file")_trim" $file; done&
+screen -S r2
+for file in /mnt/sda/elena/schmidtea/sero230509/Original_files/*2.fq.gz; do cutadapt -j 4 -m 96 --trim-n -b CTGTCTCTTATA $file | cut -c 1-100 | grep -B1 -A2 "ATTCG..............$" > ./"$(basename "$file")_dephased"; done
+
+
+#Makepairs
+screen -S makepair
+pairfq makepairs -f s1_R1.fq.gz_trim -r s1_R2.fq.gz_dephased -fp s1_R1_pair -rp s1_R2_pair -fs s1_R1_single -rs s1_R2_single &
+pairfq makepairs -f s2_R1.fq.gz_trim -r s2_R2.fq.gz_dephased -fp s2_R1_pair -rp s2_R2_pair -fs s2_R1_single -rs s2_R2_single &
+pairfq makepairs -f s3_R1.fq.gz_trim -r s3_R2.fq.gz_dephased -fp s3_R1_pair -rp s3_R2_pair -fs s3_R1_single -rs s3_R2_single &
+pairfq makepairs -f s4_R1.fq.gz_trim -r s4_R2.fq.gz_dephased -fp s4_R1_pair -rp s4_R2_pair -fs s4_R1_single -rs s4_R2_single &
+pairfq makepairs -f s5_R1.fq.gz_trim -r s5_R2.fq.gz_dephased -fp s5_R1_pair -rp s5_R2_pair -fs s5_R1_single -rs s5_R2_single &
+
+
+#Alignment
+screen -S bam
+picard FastqToSam F1=./s1_R1_pair F2=./s1_R2_pair O=./s1.bam SM=L1 TMP_DIR=./tmp1 &
+picard FastqToSam F1=./s2_R1_pair F2=./s2_R2_pair O=./s2.bam SM=L2 TMP_DIR=./tmp2 &
+picard FastqToSam F1=./s3_R1_pair F2=./s3_R2_pair O=./s3.bam SM=L3 TMP_DIR=./tmp3 &
+picard FastqToSam F1=./s4_R1_pair F2=./s4_R2_pair O=./s4.bam SM=L4 TMP_DIR=./tmp4 &
+picard FastqToSam F1=./s5_R1_pair F2=./s5_R2_pair O=./s5.bam SM=L5 TMP_DIR=./tmp5 &
+mv *.bam ../Alignment
+rm *_trim 
+rm *_dephased
+rm *_single
+rm -r tmp* #for a matter of space we will remove those intermidiate files
+
+
+#Reads Count
+samtools view -c s1.bam &
+267652374 #this are the number of reads of the f1st library of the sizes experiment
+samtools view -c s2.bam &
+219694938 #this are the number of reads of the 2nd library of the sizes experiment
+samtools view -c s3.bam &
+225651026 #this are the number of reads of the 3rd library of the sizes experiment
+samtools view -c s4.bam &
+81945160 #this are the number of reads of the 4th library of the sizes experiment
+samtools view -c s5.bam &
+285385004 #this are the number of reads of the 5th library of the sizes experiment
+
+
+#SPLiT-seq TOOL BOX pt1
+cd Alignment
+mkdir sero1
+mkdir sero2
+mkdir sero3
+mkdir sero4
+mkdir sero5
+mv s1.bam sero1
+mv s2.bam sero2
+mv s3.bam sero3
+mv s4.bam sero4
+mv s5.bam sero5
+cd sero1
+screen -S s1
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Molecular.bam_summary.txt BASE_RANGE=1-10 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XM NUM_BASES_BELOW_QUALITY=1 INPUT=s1.bam OUTPUT=./unaligned_tagged_Molecular.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_1.bam_summary.txt BASE_RANGE=87-96 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XD NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_Molecular.bam OUTPUT=./unaligned_tagged_MC1.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_2.bam_summary.txt BASE_RANGE=49-56 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XE NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_MC1.bam OUTPUT=./unaligned_tagged_MC1C2.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_3.bam_summary.txt BASE_RANGE=11-18 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=true TAG_NAME=XF NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_MC1C2.bam OUTPUT=./unaligned_tagged_MC1C2C3.bam
+dropseq FilterBam TAG_REJECT=XQ INPUT=./unaligned_tagged_MC1C2C3.bam OUTPUT=./unaligned_tagged_filtered.bam
+dropseq TrimStartingSequence OUTPUT_SUMMARY=./adapter_trimming_report.txt SEQUENCE=AAGCAGTGGTATCAACGCAGAGTGAATGGG MISMATCHES=0 NUM_BASES=5 INPUT=./unaligned_tagged_filtered.bam OUTPUT=./unaligned_tagged_trimmed_smart.bam
+dropseq PolyATrimmer OUTPUT_SUMMARY=./polyA_trimming_report.txt MISMATCHES=0 NUM_BASES=6 INPUT=./unaligned_tagged_trimmed_smart.bam OUTPUT=./unaligned_mc_tagged_polyA_filtered.bam
+python3 /mnt/sda/non_apt_programs/splitseq_toolbox/src/Splitseq_barcode_filtering.py -o ./tagged_unaligned.bam -i ./unaligned_mc_tagged_polyA_filtered.bam -b /mnt/sda/non_apt_programs/splitseq_toolbox/data/barcode_lists_2022/ -n 100
+picard SamToFastq I=tagged_unaligned.bam FASTQ=output.fastq
+cd sero2
+screen -S s2
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Molecular.bam_summary.txt BASE_RANGE=1-10 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XM NUM_BASES_BELOW_QUALITY=1 INPUT=s2.bam OUTPUT=./unaligned_tagged_Molecular.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_1.bam_summary.txt BASE_RANGE=87-96 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XD NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_Molecular.bam OUTPUT=./unaligned_tagged_MC1.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_2.bam_summary.txt BASE_RANGE=49-56 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XE NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_MC1.bam OUTPUT=./unaligned_tagged_MC1C2.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_3.bam_summary.txt BASE_RANGE=11-18 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=true TAG_NAME=XF NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_MC1C2.bam OUTPUT=./unaligned_tagged_MC1C2C3.bam
+dropseq FilterBam TAG_REJECT=XQ INPUT=./unaligned_tagged_MC1C2C3.bam OUTPUT=./unaligned_tagged_filtered.bam
+dropseq TrimStartingSequence OUTPUT_SUMMARY=./adapter_trimming_report.txt SEQUENCE=AAGCAGTGGTATCAACGCAGAGTGAATGGG MISMATCHES=0 NUM_BASES=5 INPUT=./unaligned_tagged_filtered.bam OUTPUT=./unaligned_tagged_trimmed_smart.bam
+dropseq PolyATrimmer OUTPUT_SUMMARY=./polyA_trimming_report.txt MISMATCHES=0 NUM_BASES=6 INPUT=./unaligned_tagged_trimmed_smart.bam OUTPUT=./unaligned_mc_tagged_polyA_filtered.bam
+python3 /mnt/sda/non_apt_programs/splitseq_toolbox/src/Splitseq_barcode_filtering.py -o ./tagged_unaligned.bam -i ./unaligned_mc_tagged_polyA_filtered.bam -b /mnt/sda/non_apt_programs/splitseq_toolbox/data/barcode_lists_2022/ -n 100
+picard SamToFastq I=tagged_unaligned.bam FASTQ=output.fastq
+cd sero3
+screen -S s3
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Molecular.bam_summary.txt BASE_RANGE=1-10 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XM NUM_BASES_BELOW_QUALITY=1 INPUT=s3.bam OUTPUT=./unaligned_tagged_Molecular.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_1.bam_summary.txt BASE_RANGE=87-96 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XD NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_Molecular.bam OUTPUT=./unaligned_tagged_MC1.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_2.bam_summary.txt BASE_RANGE=49-56 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XE NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_MC1.bam OUTPUT=./unaligned_tagged_MC1C2.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_3.bam_summary.txt BASE_RANGE=11-18 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=true TAG_NAME=XF NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_MC1C2.bam OUTPUT=./unaligned_tagged_MC1C2C3.bam
+dropseq FilterBam TAG_REJECT=XQ INPUT=./unaligned_tagged_MC1C2C3.bam OUTPUT=./unaligned_tagged_filtered.bam
+dropseq TrimStartingSequence OUTPUT_SUMMARY=./adapter_trimming_report.txt SEQUENCE=AAGCAGTGGTATCAACGCAGAGTGAATGGG MISMATCHES=0 NUM_BASES=5 INPUT=./unaligned_tagged_filtered.bam OUTPUT=./unaligned_tagged_trimmed_smart.bam
+dropseq PolyATrimmer OUTPUT_SUMMARY=./polyA_trimming_report.txt MISMATCHES=0 NUM_BASES=6 INPUT=./unaligned_tagged_trimmed_smart.bam OUTPUT=./unaligned_mc_tagged_polyA_filtered.bam
+python3 /mnt/sda/non_apt_programs/splitseq_toolbox/src/Splitseq_barcode_filtering.py -o ./tagged_unaligned.bam -i ./unaligned_mc_tagged_polyA_filtered.bam -b /mnt/sda/non_apt_programs/splitseq_toolbox/data/barcode_lists_2022/ -n 100
+picard SamToFastq I=tagged_unaligned.bam FASTQ=output.fastq
+cd sero4
+screen -S s4
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Molecular.bam_summary.txt BASE_RANGE=1-10 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XM NUM_BASES_BELOW_QUALITY=1 INPUT=s4.bam OUTPUT=./unaligned_tagged_Molecular.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_1.bam_summary.txt BASE_RANGE=87-96 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XD NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_Molecular.bam OUTPUT=./unaligned_tagged_MC1.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_2.bam_summary.txt BASE_RANGE=49-56 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XE NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_MC1.bam OUTPUT=./unaligned_tagged_MC1C2.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_3.bam_summary.txt BASE_RANGE=11-18 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=true TAG_NAME=XF NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_MC1C2.bam OUTPUT=./unaligned_tagged_MC1C2C3.bam
+dropseq FilterBam TAG_REJECT=XQ INPUT=./unaligned_tagged_MC1C2C3.bam OUTPUT=./unaligned_tagged_filtered.bam
+dropseq TrimStartingSequence OUTPUT_SUMMARY=./adapter_trimming_report.txt SEQUENCE=AAGCAGTGGTATCAACGCAGAGTGAATGGG MISMATCHES=0 NUM_BASES=5 INPUT=./unaligned_tagged_filtered.bam OUTPUT=./unaligned_tagged_trimmed_smart.bam
+dropseq PolyATrimmer OUTPUT_SUMMARY=./polyA_trimming_report.txt MISMATCHES=0 NUM_BASES=6 INPUT=./unaligned_tagged_trimmed_smart.bam OUTPUT=./unaligned_mc_tagged_polyA_filtered.bam
+python3 /mnt/sda/non_apt_programs/splitseq_toolbox/src/Splitseq_barcode_filtering.py -o ./tagged_unaligned.bam -i ./unaligned_mc_tagged_polyA_filtered.bam -b /mnt/sda/non_apt_programs/splitseq_toolbox/data/barcode_lists_2022/ -n 100
+picard SamToFastq I=tagged_unaligned.bam FASTQ=output.fastq
+cd sero5
+screen -S s5
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Molecular.bam_summary.txt BASE_RANGE=1-10 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XM NUM_BASES_BELOW_QUALITY=1 INPUT=s5.bam OUTPUT=./unaligned_tagged_Molecular.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_1.bam_summary.txt BASE_RANGE=87-96 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XD NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_Molecular.bam OUTPUT=./unaligned_tagged_MC1.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_2.bam_summary.txt BASE_RANGE=49-56 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=false TAG_NAME=XE NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_MC1.bam OUTPUT=./unaligned_tagged_MC1C2.bam
+dropseq TagBamWithReadSequenceExtended SUMMARY=./unaligned_tagged_Cellular_3.bam_summary.txt BASE_RANGE=11-18 BASE_QUALITY=10 BARCODED_READ=2 DISCARD_READ=true TAG_NAME=XF NUM_BASES_BELOW_QUALITY=1 INPUT=./unaligned_tagged_MC1C2.bam OUTPUT=./unaligned_tagged_MC1C2C3.bam
+dropseq FilterBam TAG_REJECT=XQ INPUT=./unaligned_tagged_MC1C2C3.bam OUTPUT=./unaligned_tagged_filtered.bam
+dropseq TrimStartingSequence OUTPUT_SUMMARY=./adapter_trimming_report.txt SEQUENCE=AAGCAGTGGTATCAACGCAGAGTGAATGGG MISMATCHES=0 NUM_BASES=5 INPUT=./unaligned_tagged_filtered.bam OUTPUT=./unaligned_tagged_trimmed_smart.bam
+dropseq PolyATrimmer OUTPUT_SUMMARY=./polyA_trimming_report.txt MISMATCHES=0 NUM_BASES=6 INPUT=./unaligned_tagged_trimmed_smart.bam OUTPUT=./unaligned_mc_tagged_polyA_filtered.bam
+python3 /mnt/sda/non_apt_programs/splitseq_toolbox/src/Splitseq_barcode_filtering.py -o ./tagged_unaligned.bam -i ./unaligned_mc_tagged_polyA_filtered.bam -b /mnt/sda/non_apt_programs/splitseq_toolbox/data/barcode_lists_2022/ -n 100
+picard SamToFastq I=tagged_unaligned.bam FASTQ=output.fastq
+
+
+#SPLiT-seq TOOL BOX pt2
+STAR --genomeDir /mnt/sda/david/genome_tests/ref_rink_genome/star_index --runThreadN 8 --quantMode GeneCounts --outFileNamePrefix ./StarMappingAllowlots --readFilesIn ./output.fastq #Alignemtnt
+picard SortSam INPUT= StarMappingAllowlotsAligned.out.sam OUTPUT=starout.bam SORT_ORDER=queryname TMP_DIR=./tmp1 #sorting order
+picard MergeBamAlignment R= /mnt/sda/david/genome_tests/ref_rink_genome/Smed.fa UNMAPPED=./tagged_unaligned.bam ALIGNED=./starout.bam INCLUDE_SECONDARY_ALIGNMENTS=false PAIRED_RUN=false O=./merged_alignments.bam #merge STAR alignment and barcoded reads
+dropseq TagReadWithInterval INTERVALS= /mnt/sda/david/genome_tests/ref_rink_genome/Smed.genes.intervals TAG=XG O= ./geneintervaltag.bam INPUT= ./merged_alignments.bam #tag with gene intervals
+dropseq TagReadWithGeneFunction O= ./gene_function_tagged.bam I=./geneintervaltag.bam ANNOTATIONS_FILE= /mnt/sda/david/genome_tests/ref_rink_genome/Smed.refFlat #tag where mapping on the gene
+
+
+#set next wd 
+mv gene_function_tagged.bam s1_final.bam
+mv gene_function_tagged.bam s2_final.bam
+mv gene_function_tagged.bam s3_final.bam
+mv gene_function_tagged.bam s4_final.bam
+mv gene_function_tagged.bam s5_final.bam
+mv s1_final.bam /mnt/sda/elena/schmidtea/sero230509/Matrix
+mv s2_final.bam /mnt/sda/elena/schmidtea/sero230509/Matrix
+mv s3_final.bam /mnt/sda/elena/schmidtea/sero230509/Matrix
+mv s4_final.bam /mnt/sda/elena/schmidtea/sero230509/Matrix
+mv s5_final.bam /mnt/sda/elena/schmidtea/sero230509/Matrix
+
+
+#RNA Metrix
+picard CollectRnaSeqMetrics I=s1_final.bam O=s1_final.RNA_Metrics REF_FLAT=/mnt/sda/Standard_References/NewGuoSmedGenome_Jakke_Models/Smed.refFlat STRAND=SECOND_READ_TRANSCRIPTION_STRAND
+picard CollectRnaSeqMetrics I=s2_final.bam O=s2_final.RNA_Metrics REF_FLAT=/mnt/sda/Standard_References/NewGuoSmedGenome_Jakke_Models/Smed.refFlat STRAND=SECOND_READ_TRANSCRIPTION_STRAND
+picard CollectRnaSeqMetrics I=s3_final.bam O=s3_final.RNA_Metrics REF_FLAT=/mnt/sda/Standard_References/NewGuoSmedGenome_Jakke_Models/Smed.refFlat STRAND=SECOND_READ_TRANSCRIPTION_STRAND
+picard CollectRnaSeqMetrics I=s4_final.bam O=s4_final.RNA_Metrics REF_FLAT=/mnt/sda/Standard_References/NewGuoSmedGenome_Jakke_Models/Smed.refFlat STRAND=SECOND_READ_TRANSCRIPTION_STRAND
+picard CollectRnaSeqMetrics I=s5_final.bam O=s5_final.RNA_Metrics REF_FLAT=/mnt/sda/Standard_References/NewGuoSmedGenome_Jakke_Models/Smed.refFlat STRAND=SECOND_READ_TRANSCRIPTION_STRAND
+samtools view s1_final.bam | wc -l &
+121324733 #this are the total number of reads of the 1st library of the serotonergic experiment after pre-processing
+samtools view s1_final.bam | grep "CODING" | wc -l &
+21791271 #this are the number of coding reads of the 1st library of the serotonergic experiment after pre-processing
+samtools view s1_final.bam | grep "INTRONIC" | wc -l &
+19655570 #this are the number of intronic reads of the 1st library of the serotonergic experiment after pre-processing
+samtools view s1_final.bam | grep "INTERGENIC" | wc -l &
+7359327 #this are the number of intergenic reads of the 1st library of the serotonergic experiment after pre-processing
+samtools view s2_final.bam | wc -l &
+99560621 #this are the total number of reads of the 2nd library of the serotonergic experiment after pre-processing
+samtools view s2_final.bam | grep "CODING" | wc -l &
+17115765 #this are the number of coding reads of the 2nd library of the serotonergic experiment after pre-processing
+samtools view s2_final.bam | grep "INTRONIC" | wc -l &
+16753017 #this are the number of intronic reads of the 2nd library of the serotonergic experiment after pre-processing
+samtools view s2_final.bam | grep "INTERGENIC" | wc -l &
+6040774 #this are the number of intergenic reads of the 2nd library of the serotonergic experiment after pre-processing
+samtools view s3_final.bam | wc -l &
+102428088 #this are the total number of reads of the 3rd library of the serotonergic experiment after pre-processing
+samtools view s3_final.bam | grep "CODING" | wc -l &
+21081087 #this are the number of coding reads of the 3rd library of the serotonergic experiment after pre-processing
+samtools view s3_final.bam | grep "INTRONIC" | wc -l &
+18969512 #this are the number of intronic reads of the 3rd library of the serotonergic experiment after pre-processing
+samtools view s3_final.bam | grep "INTERGENIC" | wc -l &
+6234983 #this are the number of intergenic reads of the 3rd library of the serotonergic experiment after pre-processing
+samtools view s4_final.bam | wc -l &
+36905603 #this are the total number of reads of the 4th library of the serotonergic experiment after pre-processing
+samtools view s4_final.bam | grep "CODING" | wc -l &
+5284457 #this are the number of coding reads of the 4th library of the serotonergic experiment after pre-processing
+samtools view s4_final.bam | grep "INTRONIC" | wc -l &
+4583974 #this are the number of intronic reads of the 4th library of the serotonergic experiment after pre-processing
+samtools view s4_final.bam | grep "INTERGENIC" | wc -l &
+2026298 #this are the number of intergenic reads of the 4th library of the serotonergic experiment after pre-processing
+samtools view s5_final.bam | wc -l &
+128622257 #this are the total number of reads of the 5th library of the serotonergic experiment after pre-processing
+samtools view s5_final.bam | grep "CODING" | wc -l &
+24177074 #this are the number of coding reads of the 5th library of the serotonergic experiment after pre-processing
+samtools view s5_final.bam | grep "INTRONIC" | wc -l &
+22781896 #this are the number of intronic reads of the 5th library of the serotonergic experiment after pre-processing
+samtools view s5_final.bam | grep "INTERGENIC" | wc -l &
+7839824 #this are the number of intergenic reads of the 5th library of the serotonergic experiment after pre-processing
+cd sero1
+less StarMappingAllowlotsLog.final.out
+                                 Started job on |       May 17 23:36:30
+                             Started mapping on |       May 17 23:36:40
+                                    Finished on |       May 17 23:51:31
+       Mapping speed, Million of reads per hour |       490.20
+
+                          Number of input reads |       121324733
+                      Average input read length |       130
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |       35349379
+                        Uniquely mapped reads % |       29.14%
+                          Average mapped length |       127.78
+                       Number of splices: Total |       5189761
+            Number of splices: Annotated (sjdb) |       4883912
+                       Number of splices: GT/AG |       4935135
+                       Number of splices: GC/AG |       29552
+                       Number of splices: AT/AC |       3932
+               Number of splices: Non-canonical |       221142
+                      Mismatch rate per base, % |       1.55%
+                         Deletion rate per base |       0.08%
+                        Deletion average length |       2.71
+                        Insertion rate per base |       0.06%
+                       Insertion average length |       1.86
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |       4751129
+             % of reads mapped to multiple loci |       3.92%
+        Number of reads mapped to too many loci |       716439
+             % of reads mapped to too many loci |       0.59%
+                                  UNMAPPED READS:
+  Number of reads unmapped: too many mismatches |       0
+       % of reads unmapped: too many mismatches |       0.00%
+            Number of reads unmapped: too short |       24681121
+                 % of reads unmapped: too short |       20.34%
+                Number of reads unmapped: other |       55826665
+                     % of reads unmapped: other |       46.01%
+                                  CHIMERIC READS:
+                       Number of chimeric reads |       0
+                            % of chimeric reads |       0.00%
+cd sero2
+less StarMappingAllowlotsLog.final.out
+                                 Started job on |       May 17 23:36:41
+                             Started mapping on |       May 17 23:36:46
+                                    Finished on |       May 17 23:48:46
+       Mapping speed, Million of reads per hour |       497.80
+
+                          Number of input reads |       99560621
+                      Average input read length |       125
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |       28760867
+                        Uniquely mapped reads % |       28.89%
+                          Average mapped length |       123.30
+                       Number of splices: Total |       3724612
+            Number of splices: Annotated (sjdb) |       3492509
+                       Number of splices: GT/AG |       3526022
+                       Number of splices: GC/AG |       22233
+                       Number of splices: AT/AC |       2663
+               Number of splices: Non-canonical |       173694
+                      Mismatch rate per base, % |       1.59%
+                         Deletion rate per base |       0.08%
+                        Deletion average length |       2.72
+                        Insertion rate per base |       0.06%
+                       Insertion average length |       1.85
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |       3918192
+             % of reads mapped to multiple loci |       3.94%
+        Number of reads mapped to too many loci |       614337
+             % of reads mapped to too many loci |       0.62%
+                                  UNMAPPED READS:
+  Number of reads unmapped: too many mismatches |       0
+       % of reads unmapped: too many mismatches |       0.00%
+            Number of reads unmapped: too short |       19207219
+                 % of reads unmapped: too short |       19.29%
+                Number of reads unmapped: other |       47060006
+                     % of reads unmapped: other |       47.27%
+                                  CHIMERIC READS:
+                       Number of chimeric reads |       0
+                            % of chimeric reads |       0.00%
+
+cd sero3
+less StarMappingAllowlotsLog.final.out
+                                 Started job on |       May 17 23:36:52
+                             Started mapping on |       May 17 23:36:59
+                                    Finished on |       May 17 23:50:08
+       Mapping speed, Million of reads per hour |       467.35
+
+                          Number of input reads |       102428088
+                      Average input read length |       129
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |       33424590
+                        Uniquely mapped reads % |       32.63%
+                          Average mapped length |       127.54
+                       Number of splices: Total |       4863829
+            Number of splices: Annotated (sjdb) |       4587390
+                       Number of splices: GT/AG |       4631296
+                       Number of splices: GC/AG |       27063
+                       Number of splices: AT/AC |       3707
+               Number of splices: Non-canonical |       201763
+                      Mismatch rate per base, % |       1.51%
+                         Deletion rate per base |       0.08%
+                        Deletion average length |       2.69
+                        Insertion rate per base |       0.06%
+                       Insertion average length |       1.77
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |       4341458
+             % of reads mapped to multiple loci |       4.24%
+        Number of reads mapped to too many loci |       658544
+             % of reads mapped to too many loci |       0.64%
+                                  UNMAPPED READS:
+  Number of reads unmapped: too many mismatches |       0
+       % of reads unmapped: too many mismatches |       0.00%
+            Number of reads unmapped: too short |       19182281
+                 % of reads unmapped: too short |       18.73%
+                Number of reads unmapped: other |       44821215
+                     % of reads unmapped: other |       43.76%
+                                  CHIMERIC READS:
+                       Number of chimeric reads |       0
+                            % of chimeric reads |       0.00%
+cd sero4
+less StarMappingAllowlotsLog.final.out
+                                 Started job on |       May 17 23:44:11
+                             Started mapping on |       May 17 23:44:16
+                                    Finished on |       May 17 23:49:19
+       Mapping speed, Million of reads per hour |       438.48
+
+                          Number of input reads |       36905603
+                      Average input read length |       127
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |       8495591
+                        Uniquely mapped reads % |       23.02%
+                          Average mapped length |       123.34
+                       Number of splices: Total |       1207042
+            Number of splices: Annotated (sjdb) |       1139446
+                       Number of splices: GT/AG |       1150051
+                       Number of splices: GC/AG |       7335
+                       Number of splices: AT/AC |       883
+               Number of splices: Non-canonical |       48773
+                      Mismatch rate per base, % |       1.64%
+                         Deletion rate per base |       0.07%
+                        Deletion average length |       2.65
+                        Insertion rate per base |       0.05%
+                       Insertion average length |       1.85
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |       1244904
+             % of reads mapped to multiple loci |       3.37%
+        Number of reads mapped to too many loci |       200388
+             % of reads mapped to too many loci |       0.54%
+                                  UNMAPPED READS:
+  Number of reads unmapped: too many mismatches |       0
+       % of reads unmapped: too many mismatches |       0.00%
+            Number of reads unmapped: too short |       7890106
+                 % of reads unmapped: too short |       21.38%
+                Number of reads unmapped: other |       19074614
+                     % of reads unmapped: other |       51.68%
+                                  CHIMERIC READS:
+                       Number of chimeric reads |       0
+                            % of chimeric reads |       0.00%
+cd s5
+less StarMappingAllowlotsLog.final.out
+                                 Started job on |       May 17 23:44:17
+                             Started mapping on |       May 17 23:44:22
+                                    Finished on |       May 17 23:59:40
+       Mapping speed, Million of reads per hour |       504.40
+
+                          Number of input reads |       128622257
+                      Average input read length |       128
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |       39543912
+                        Uniquely mapped reads % |       30.74%
+                          Average mapped length |       125.02
+                       Number of splices: Total |       5321348
+            Number of splices: Annotated (sjdb) |       4995968
+                       Number of splices: GT/AG |       5044032
+                       Number of splices: GC/AG |       31477
+                       Number of splices: AT/AC |       4275
+               Number of splices: Non-canonical |       241564
+                      Mismatch rate per base, % |       1.55%
+                         Deletion rate per base |       0.08%
+                        Deletion average length |       2.68
+                        Insertion rate per base |       0.06%
+                       Insertion average length |       1.84
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |       5209238
+             % of reads mapped to multiple loci |       4.05%
+        Number of reads mapped to too many loci |       812478
+             % of reads mapped to too many loci |       0.63%
+                                  UNMAPPED READS:
+  Number of reads unmapped: too many mismatches |       0
+       % of reads unmapped: too many mismatches |       0.00%
+            Number of reads unmapped: too short |       24155011
+                 % of reads unmapped: too short |       18.78%
+                Number of reads unmapped: other |       58901618
+                     % of reads unmapped: other |       45.79%
+                                  CHIMERIC READS:
+                       Number of chimeric reads |       0
+                            % of chimeric reads |       0.00%
+		
+	
+#Matrix
+cd Matrix
+DigitalExpression INPUT=s1_final.bam OUTPUT=s1_final_G50_MQ0_matrix.txt.gz SUMMARY=s1_final_G50_MQ0_summary.txt LOCUS_FUNCTION_LIST=INTRONIC READ_MQ=0 EDIT_DISTANCE=1 MIN_NUM_GENES_PER_CELL=50 TMP_DIR=./tmp1 &
+DigitalExpression INPUT=s2_final.bam OUTPUT=s2_final_G50_MQ0_matrix.txt.gz SUMMARY=s2_final_G50_MQ0_summary.txt LOCUS_FUNCTION_LIST=INTRONIC READ_MQ=0 EDIT_DISTANCE=1 MIN_NUM_GENES_PER_CELL=50 TMP_DIR=./tmp2 &
+DigitalExpression INPUT=s3_final.bam OUTPUT=s3_final_G50_MQ0_matrix.txt.gz SUMMARY=s3_final_G50_MQ0_summary.txt LOCUS_FUNCTION_LIST=INTRONIC READ_MQ=0 EDIT_DISTANCE=1 MIN_NUM_GENES_PER_CELL=50 TMP_DIR=./tmp3 &
+DigitalExpression INPUT=s4_final.bam OUTPUT=s4_final_G50_MQ0_matrix.txt.gz SUMMARY=s4_final_G50_MQ0_summary.txt LOCUS_FUNCTION_LIST=INTRONIC READ_MQ=0 EDIT_DISTANCE=1 MIN_NUM_GENES_PER_CELL=50 TMP_DIR=./tmp4 &
+DigitalExpression INPUT=s5_final.bam OUTPUT=s5_final_G50_MQ0_matrix.txt.gz SUMMARY=s5_final_G50_MQ0_summary.txt LOCUS_FUNCTION_LIST=INTRONIC READ_MQ=0 EDIT_DISTANCE=1 MIN_NUM_GENES_PER_CELL=50 TMP_DIR=./tmp5 &
+
+
+#Number of cells in the matrix
+cat s1_final_G50_MQ0_summary.txt | sed '1,7d' | wc -l
+19644 #number of cells in the 1st library of the serotonergic experiment
+cat s2_final_G50_MQ0_summary.txt | sed '1,7d' | wc -l
+19766 #number of cells in the 2nd library of the serotonergic experiment
+cat s3_final_G50_MQ0_summary.txt | sed '1,7d' | wc -l
+20398 #number of cells in the 3rd library of the serotonergic experiment
+cat s4_final_G50_MQ0_summary.txt | sed '1,7d' | wc -l
+14306 #number of cells in the 4th library of the serotonergic experiment
+cat s5_final_G50_MQ0_summary.txt | sed '1,7d' | wc -l
+21316 #number of cells in the 5th library of the serotonergic experiment
+
+
+#Deduplicated (unique) UMIs in the cells included in the cutoff
+cat s1_final_G50_MQ0_summary.txt | sed '1,7d' | awk '$4 > 9' | awk '{s+=$3}END{print s}'
+3653595 #unique UMI in the 1st library of the serotonergic experiment
+cat s2_final_G50_MQ0_summary.txt | sed '1,7d' | awk '$4 > 9' | awk '{s+=$3}END{print s}'
+3061011 #unique UMI in the 2nd library of the serotonergic experiment
+cat s3_final_G50_MQ0_summary.txt | sed '1,7d' | awk '$4 > 9' | awk '{s+=$3}END{print s}'
+3563615 #unique UMI in the 3rd library of the serotonergic experiment
+cat s4_final_G50_MQ0_summary.txt | sed '1,7d' | awk '$4 > 9' | awk '{s+=$3}END{print s}'
+1735286 #unique UMI in the 4th library of the serotonergic experiment
+cat s5_final_G50_MQ0_summary.txt | sed '1,7d' | awk '$4 > 9' | awk '{s+=$3}END{print s}'
+3753291 #unique UMI in the 5th library of the serotonergic experiment
+
+
+#Undeduplicated (duplicated) UMIs in the cells included in the cutoff
+cat s1_final_G50_MQ0_summary.txt | sed '1,7d' | awk '$4 > 9' | awk '{s+=$2}END{print s}'
+20736185 #duplicated UMI in the 1st library of the serotonergic experiment
+cat s2_final_G50_MQ0_summary.txt | sed '1,7d' | awk '$4 > 9' | awk '{s+=$2}END{print s}'
+16110951 #duplicated UMI in the 2nd library of the serotonergic experiment
+cat s3_final_G50_MQ0_summary.txt | sed '1,7d' | awk '$4 > 9' | awk '{s+=$2}END{print s}'
+19261392 #duplicated UMI in the 3rd library of the serotonergic experiment
+cat s4_final_G50_MQ0_summary.txt | sed '1,7d' | awk '$4 > 9' | awk '{s+=$2}END{print s}'
+3981548 #duplicated UMI in the 4th library of the serotonergic experiment
+cat s5_final_G50_MQ0_summary.txt | sed '1,7d' | awk '$4 > 9' | awk '{s+=$2}END{print s}'
+22434478 #duplicated UMI in the 5th library of the serotonergic experiment
+
+
+#UMI duplication rate (Undeduplicated/deduplicated)
+calc 20736185 / 3653595
+5.68x #UMI duplication rate in the 1st library of the serotonergic experiment
+calc 16110951 / 3061011
+5.26x #UMI duplication rate in the 2nd library of the serotonergic experiment
+calc 19261392 / 3563615
+5.41x #UMI duplication rate in the 3rd library of the serotonergic experiment
+calc 3981548 / 1735286
+2.29x #UMI duplication rate in the 4th library of the serotonergic experiment
+calc 22434478 / 3753291
+5.98x #UMI duplication rate in the 5th library of the serotonergic experiment
+
+
+#Elbow plot
+BamTagHistogram I= s1_final.bam O= sero_1_elbow.tsv FILTER_PCR_DUPLICATES=true READ_MQ=0 TAG=XC &
+BamTagHistogram I= s2_final.bam O= sero_2_elbow.tsv FILTER_PCR_DUPLICATES=true READ_MQ=0 TAG=XC &
+BamTagHistogram I= s3_final.bam O= sero_3_elbow.tsv FILTER_PCR_DUPLICATES=true READ_MQ=0 TAG=XC &
+BamTagHistogram I= s4_final.bam O= sero_4_elbow.tsv FILTER_PCR_DUPLICATES=true READ_MQ=0 TAG=XC &
+BamTagHistogram I= s5_final.bam O= sero_5_elbow.tsv FILTER_PCR_DUPLICATES=true READ_MQ=0 TAG=XC &
+
+
+#Generate 10x Matrix folder
+screen -S R_sizes
+cd /mnt/sda/elena/schmidtea/sero230509/Matrix
+
+
+#Open environment via Linux and download libraries:
+R
+library(plyr)
+library(dplyr)
+library(Seurat)
+library(ggplot2)
+library(shallot)
+library(SeuratDisk)
+library(DropletUtils)
+
+
+#Read matrix:
+s1_final_G50_MQ0_matrix.txt.gz
+s2_final_G50_MQ0_matrix.txt.gz
+s3_final_G50_MQ0_matrix.txt.gz
+s4_final_G50_MQ0_matrix.txt.gz
+s5_final_G50_MQ0_matrix.txt.gz
+s1 <- read.table(file = "s1_final_G50_MQ0_matrix.txt.gz", header =TRUE, row.names = 1, colClasses =c("character", rep("numeric")))
+s2 <- read.table(file = "s2_final_G50_MQ0_matrix.txt.gz", header =TRUE, row.names = 1, colClasses =c("character", rep("numeric")))
+s3 <- read.table(file = "s3_final_G50_MQ0_matrix.txt.gz", header =TRUE, row.names = 1, colClasses =c("character", rep("numeric")))
+s4 <- read.table(file = "s4_final_G50_MQ0_matrix.txt.gz", header =TRUE, row.names = 1, colClasses =c("character", rep("numeric")))
+s5 <- read.table(file = "s5_final_G50_MQ0_matrix.txt.gz", header =TRUE, row.names = 1, colClasses =c("character", rep("numeric")))
+
+
+#Create Seurat objects:
+#Minimum cutoff (1 gene, 1 cell)
+s1 <- CreateSeuratObject(counts = s1, project = "sero", min.cells = 1, min.features = 1)
+s2 <- CreateSeuratObject(counts = s2, project = "sero", min.cells = 1, min.features = 1)
+s3 <- CreateSeuratObject(counts = s3, project = "sero", min.cells = 1, min.features = 1)
+s4 <- CreateSeuratObject(counts = s4, project = "sero", min.cells = 1, min.features = 1)
+s5 <- CreateSeuratObject(counts = s5, project = "sero", min.cells = 1, min.features = 1)
+
+
+#Assign identity to each library:
+s1 [["library"]] <- "L43_1"
+s1@meta.data$library <- "L43_1"
+s2 [["library"]] <- "L43_2"
+s2@meta.data$library <- "L43_2"
+s3 [["library"]] <- "L43_3"
+s3@meta.data$library <- "L43_3"
+s4 [["library"]] <- "L43_4"
+s4@meta.data$library <- "L43_4"
+s5 [["library"]] <- "L43_5"
+s5@meta.data$library <- "L43_5"
+
+
+#Check and save objects:
+objects() 
+[1] "s1" "s2" "s3" "s4" "s5"
+dim(s1)
+[1] 35579 19642 #the rows contain the number of genes; the column intead the number of cells
+dim(s2)
+[1] 34673 19764 #the rows contain the number of genes; the column intead the number of cells
+dim(s3)
+[1] 35668 20396 #the rows contain the number of genes; the column intead the number of cells
+dim(s4)
+[1] 29435 14304 #the rows contain the number of genes; the column intead the number of cells
+dim(s5)
+[1] 35731 21314 #the rows contain the number of genes; the column intead the number of cells
+save (s1, s2, s3, s4, s5, file= 'sero230509.RData')
+
+
+#Adding ID to the cells and create final Seurat objects:
+sero <- merge(s1, y = c(s2, s3, s4, s5),
+                        add.cell.ids = c("L43_1","L43_2","L43_3","L43_4","L43_5"),
+                        project = "sero",
+                        merge.data = FALSE)
+
+
+#To visualize the final Seurat object:
+head (x=sero)
+                                 orig.ident nCount_RNA nFeature_RNA library
+L43_1_AACCATTGGAGACTAGTAACGCTCGA       sero        148          130   L43_1
+L43_1_CATTCGACGGAGATCGCACGCTGATC       sero        176          159   L43_1
+L43_1_TCGGCCTTACACAGCAGAGAGCTGAA       sero         83           81   L43_1
+L43_1_ACGGAGGCGGTGGAACAATAGGATGA       sero        502          359   L43_1
+L43_1_GACCTTGATAACGCTCGACAAGACTA       sero        185          149   L43_1
+L43_1_TTACCTCGACTGGAACAAAGATCGCA       sero        180          166   L43_1
+L43_1_ACCTGGCCAAAGCACCTCAACGCTTA       sero        309          252   L43_1
+L43_1_TTACCTCGACCAGCGTTAGAACAGGC       sero        690          336   L43_1
+L43_1_ATCATATTAGCAAGACTACCTCTATC       sero        615          502   L43_1
+L43_1_TCCTACCAGTCAAGACTATGGAACAA       sero        242          184   L43_1
+tail (x=sero)
+                                 orig.ident nCount_RNA nFeature_RNA library
+L43_5_AACCTGGTCTACGCTCGACACCTTAC       sero         72           69   L43_5
+L43_5_TAACTGGTTAAAGGTACAGAGTTAGC       sero        411          212   L43_5
+L43_5_GGTATGCTTGGAACAGGCAATGTTGC       sero         80           63   L43_5
+L43_5_GGTACCGGCAGAATCTGATGAAGAGA       sero        262          186   L43_5
+L43_5_GCCGCAACGACCAGTTCAAGCAGGAA       sero        110          103   L43_5
+L43_5_TCGGCCTTACCGAACTTAAGATGTAC       sero         88           74   L43_5
+L43_5_CCAGTTCCAATGGAACAAATTGGCTC       sero        238          201   L43_5
+L43_5_TTCGCCTCCACAAGGAGCAAACATCG       sero        230          138   L43_5
+L43_5_CCGATTCCTGCCGACAACGATAGACA       sero         56           42   L43_5
+L43_5_TAGAATTAACCAAGGAGCCGGATTGC       sero        116           98   L43_5
+save (sero, s1, s2, s3, s4, s5, file= 'sero230509.RData')
+
+
+#Convert into H5ad & 10xCounts:
+SaveH5Seurat(sero, filename = 'sero.h5Seurat')
+Convert('sero.h5Seurat', dest ='h5ad')
+write10xCounts(x = sero@assays$RNA@counts, version="3", path = "./Sero_matrix")
+write.csv (sero@meta.data, 'sero_metadata.csv')
+
+
+#The end
+q()
+Save workspace image? [y/n/c]: n
+exit
+
+
+

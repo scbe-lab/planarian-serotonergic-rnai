@@ -1,0 +1,7 @@
+GO:0009448	gamma-aminobutyric acid metabolic process
+GO:0036242	glutamate catabolic process to succinate via 2-oxoglutarate-dependent GABA-transaminase activity
+GO:0009450	gamma-aminobutyric acid catabolic process
+GO:1901715	regulation of gamma-aminobutyric acid catabolic process
+GO:0019549	glutamate catabolic process to succinate via succinate semialdehyde
+GO:1901716	negative regulation of gamma-aminobutyric acid catabolic process
+GO:1901717	positive regulation of gamma-aminobutyric acid catabolic process

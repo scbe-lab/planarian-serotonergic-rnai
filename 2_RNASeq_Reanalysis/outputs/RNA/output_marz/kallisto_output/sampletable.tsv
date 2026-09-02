@@ -1,0 +1,4 @@
+GFP_Rep1	GFP_RNAi	1	/mnt/sda/alberto/colabos/elena_sero/rnaseq_reanalysis/outputs/RNA/kallisto_output/raw_output/kallisto_out_GFP_Rep1
+GFP_Rep2	GFP_RNAi	2	/mnt/sda/alberto/colabos/elena_sero/rnaseq_reanalysis/outputs/RNA/kallisto_output/raw_output/kallisto_out_GFP_Rep2
+pitx_Rep1	pitx_RNAi	1	/mnt/sda/alberto/colabos/elena_sero/rnaseq_reanalysis/outputs/RNA/kallisto_output/raw_output/kallisto_out_pitx_Rep1
+pitx_Rep2	pitx_RNAi	2	/mnt/sda/alberto/colabos/elena_sero/rnaseq_reanalysis/outputs/RNA/kallisto_output/raw_output/kallisto_out_pitx_Rep2
